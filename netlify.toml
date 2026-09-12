@@ -1,0 +1,87 @@
+# Netlify config per il frontend Open Parlamento (React/Vite).
+#
+# Il backend (agent-service, gateway-service, LightRAG, public-api) resta su Hetzner
+# dietro nginx/Caddy (vedi ../Caddyfile, ../webapp/nginx.conf). Questi redirect fanno da
+# reverse-proxy verso l'origine esistente per i path dinamici, così il codice frontend
+# (che chiama /api, /lr, /mcp-tools, /webhooks come path RELATIVI) continua a funzionare
+# invariato anche servito da Netlify. Nessuna modifica lato backend necessaria: Netlify
+# risolve il target come richiesta separata verso open-parlament.xyz (Host header proprio),
+# indipendente dal dominio con cui il browser ha chiamato Netlify.
+#
+# NB: /api/ask/stream è SSE (streaming) — verificare dopo il primo deploy che il proxy
+# Netlify non bufferizzi la risposta (rischio noto dei redirect-proxy su edge CDN).
+
+[build]
+  base = "webapp"
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://open-parlament.xyz/api/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/lr/*"
+  to = "https://open-parlament.xyz/lr/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/mcp-tools/*"
+  to = "https://open-parlament.xyz/mcp-tools/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/webhooks/*"
+  to = "https://open-parlament.xyz/webhooks/:splat"
+  status = 200
+  force = true
+
+# SPA fallback per le rotte client-only non prerenderate (chat/account).
+[[redirects]]
+  from = "/app/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/app/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/login"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/registrati"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/password-dimenticata"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/reset-password"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/piani"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/impostazioni/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/admin/*"
+  to = "/index.html"
+  status = 200

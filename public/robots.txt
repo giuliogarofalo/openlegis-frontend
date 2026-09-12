@@ -1,0 +1,70 @@
+# Open·Parlamento — https://openlegis.it
+# Indicizzazione aperta. I crawler delle AI sono benvenuti: vogliamo essere
+# letti e citati come fonte, non bloccarli.
+
+User-agent: *
+Allow: /
+Disallow: /lr/
+Disallow: /lr3/
+Disallow: /agent/
+# Rotte applicative client-only (auth/account): servono la shell SPA, non hanno
+# valore SEO e generavano "Pagina con reindirizzamento" verso la home in GSC.
+Disallow: /login
+Disallow: /registrati
+Disallow: /password-dimenticata
+Disallow: /reset-password
+Disallow: /piani
+Disallow: /impostazioni
+Disallow: /admin
+Disallow: /en/login
+Disallow: /en/registrati
+Disallow: /en/password-dimenticata
+Disallow: /en/reset-password
+Disallow: /en/piani
+Disallow: /en/impostazioni
+Disallow: /en/admin
+# Endpoint tecnici: API e dump JSON non sono pagine — fuori dal crawl budget.
+Disallow: /api/
+Disallow: /graph-relations.json
+
+# --- Crawler AI: esplicitamente ammessi (ricerca generativa + citazioni) ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+Sitemap: https://openlegis.it/sitemap.xml

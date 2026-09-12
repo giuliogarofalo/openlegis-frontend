@@ -1,0 +1,28 @@
+// McpServer.jsx — contenuto italiano della pagina sugli MCP server open source.
+export default {
+  lang: 'it',
+  path: '/docs/mcp-server',
+  title: 'MCP server per legge e Parlamento italiano (open source)',
+  desc: 'Due MCP server open source per interrogare legge italiana, Costituzione, diritto UE e dati del Parlamento da Claude, Cursor e altri client: republic-mcp (npm) e open-parlamento-mcp (PyPI).',
+  kicker: 'open source · model context protocol',
+  h1: 'MCP server per la legge e il Parlamento italiano',
+  lead: 'Open·Parlamento pubblica due server MCP open source che portano la legge italiana, il diritto UE e i dati del Parlamento dentro qualsiasi client compatibile — Claude Desktop, Cursor, e gli altri.',
+  whatH: 'Cos’è un MCP server',
+  what: 'Il Model Context Protocol (MCP) è lo standard aperto con cui un assistente AI chiama strumenti esterni. Un “MCP server” espone funzioni (cercare una norma, leggere un iter, recuperare una statistica) che l’AI può invocare con le fonti reali, invece di inventarle.',
+  pkgH: 'I due pacchetti',
+  instH: 'Installazione',
+  cfgH: 'Configurazione (Claude Desktop / Cursor)',
+  cfgP: 'Aggiungi i server al file di configurazione del tuo client MCP:',
+  freeH: 'Open source e gratuito',
+  freeP: 'Codice sotto licenza MIT, dati da fonti pubbliche e aperte (Normattiva, Camera, Senato, EUR-Lex, Eurostat). Nessuna chiave a pagamento per i tool dati; cerca_legge usa un’istanza LightRAG.',
+  toolsH: 'Cosa puoi chiedere',
+  related: 'Vedi anche',
+  relLinks: [['Documentazione', '/docs'], ['Connettori', '/docs/connettori'], ['Cos’è un MCP server (guida)', '/docs/guida/cos-e-un-mcp-server'], ['English version', '/en/mcp-server']],
+  faq: [
+    { q: 'Gli MCP server di Open·Parlamento sono open source?', a: 'Sì. Il codice è pubblicato con licenza MIT su GitHub; i pacchetti sono su npm (republic-mcp) e PyPI (open-parlamento-mcp).' },
+    { q: 'Come installo l’MCP server in Claude Desktop?', a: 'Aggiungi una voce in mcpServers nel file di configurazione: per republic-mcp usa il comando "npx -y republic-mcp"; per open-parlamento-mcp installa con pip e usa il comando "open-parlamento-mcp".' },
+    { q: 'È gratuito?', a: 'Sì, i tool che leggono dati pubblici sono gratuiti. Le fonti sono ufficiali e aperte (Normattiva, Camera, Senato, EUR-Lex, Eurostat).' },
+    { q: 'Quali dati copre?', a: 'Costituzione e codici, modifiche normative (Normattiva), iter di Camera e Senato, diritto e giurisprudenza UE, sentenze della Corte Costituzionale e di Cassazione, norme impugnate, statistiche Eurostat, Gazzetta Ufficiale e dataset open data.' },
+  ],
+  disclaimer: 'Strumento informativo — non costituisce consulenza legale. Le fonti sono pubbliche e citabili (ELI/CELEX).',
+}

@@ -1,0 +1,47 @@
+{
+  "brand": {
+    "tagline": "query the law · real sources · living graph"
+  },
+  "nav": {
+    "norme": "Statutes",
+    "docs": "Documentation",
+    "how": "How it works",
+    "manifesto": "Manifesto",
+    "projects": "Projects",
+    "pnrr": "PNRR",
+    "politici": "MPs",
+    "ddl": "Bills",
+    "openApp": "Open the app →"
+  },
+  "view": {
+    "chat": "Chat",
+    "exploreGraph": "Explore the graph",
+    "graph": "Graph"
+  },
+  "status": {
+    "operativo": "online",
+    "offline": "offline",
+    "model": "model",
+    "graph": "graph",
+    "entities": "entities"
+  },
+  "account": {
+    "login": "Sign in",
+    "loginSoon": "Sign in",
+    "comingSoon": "· coming soon",
+    "loginTitle": "User accounts coming soon — for now the chat is free",
+    "settings": "Settings",
+    "plans": "Plans",
+    "admin": "Admin",
+    "logout": "Sign out"
+  },
+  "menu": {
+    "open": "Open the menu"
+  },
+  "lang": {
+    "it": "Italiano",
+    "en": "English",
+    "switch": "Change language"
+  },
+  "disclaimer": "Informational tool — not legal advice."
+}

@@ -1,0 +1,47 @@
+{
+  "brand": {
+    "tagline": "interroga la legge · fonti reali · grafo vivo"
+  },
+  "nav": {
+    "norme": "Norme",
+    "docs": "Documentazione",
+    "how": "Come funziona",
+    "manifesto": "Manifesto",
+    "projects": "Progetti",
+    "pnrr": "PNRR",
+    "politici": "Parlamentari",
+    "ddl": "DDL",
+    "openApp": "Apri l'app →"
+  },
+  "view": {
+    "chat": "Chat",
+    "exploreGraph": "Esplora il grafo",
+    "graph": "Grafo"
+  },
+  "status": {
+    "operativo": "operativo",
+    "offline": "offline",
+    "model": "modello",
+    "graph": "grafo",
+    "entities": "entità"
+  },
+  "account": {
+    "login": "Accedi",
+    "loginSoon": "Accedi",
+    "comingSoon": "· coming soon",
+    "loginTitle": "Accesso e account utente in arrivo — per ora la chat è libera",
+    "settings": "Impostazioni",
+    "plans": "Piani",
+    "admin": "Admin",
+    "logout": "Esci"
+  },
+  "menu": {
+    "open": "Apri il menu"
+  },
+  "lang": {
+    "it": "Italiano",
+    "en": "English",
+    "switch": "Cambia lingua"
+  },
+  "disclaimer": "Strumento informativo — non è consulenza legale."
+}

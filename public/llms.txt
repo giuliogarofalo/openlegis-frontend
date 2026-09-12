@@ -1,0 +1,50 @@
+# Open·Parlamento
+
+> Un agente che risponde sulla legge italiana ed europea — Costituzione, codici, decreti, diritto UE — su un knowledge graph navigabile, intrecciando i dati pubblici reali. Ogni risposta cita la fonte ufficiale con identificatori stabili (ELI per l'Italia, CELEX per l'UE); se la fonte non esiste, lo dichiara invece di inventarla.
+
+Open·Parlamento unisce due mondi normalmente separati: il **testo della legge** (verbatim, citabile) e i **dati pubblici** (iter parlamentare, relazioni di modifica tra norme, open data). È uno strumento informativo, non una consulenza legale: invita sempre a verificare sulla fonte ufficiale collegata.
+
+Utile per ricerca giuridica, giornalismo di dati e **OSINT legislativo** (open-source intelligence): tutte le fonti sono pubbliche, aperte e citabili con identificatori stabili.
+
+## Pagine principali
+- [Home](https://openlegis.it/): cosa fa e come iniziare
+- [App — interroga la legge](https://openlegis.it/app): agente conversazionale + grafo navigabile
+- [Documentazione](https://openlegis.it/docs): progetto, architettura, fonti, limiti
+
+## Documentazione
+- [Il progetto](https://openlegis.it/docs/progetto): fine, principi, perché esiste
+- [Come funziona](https://openlegis.it/docs/come-funziona): agente con function-calling e i suoi strumenti
+- [Il knowledge graph](https://openlegis.it/docs/grafo): 3 livelli — testo verbatim · relazioni autoritative · wiki esplicativa
+- [I dati & le fonti](https://openlegis.it/docs/dati): copertura, formati, licenze, limiti dichiarati
+- [Connettori](https://openlegis.it/docs/connettori): pochi standard aperti (CKAN, SPARQL, Akoma Ntoso)
+- [Progetti collegati](https://openlegis.it/docs/collegati): l'ecosistema aperto su cui poggia
+- [MCP server](https://openlegis.it/docs/mcp-server): i due MCP server open source (republic-mcp · npm, open-parlamento-mcp · PyPI)
+- [API pubblica](https://openlegis.it/docs/api): API REST read-only (norme, relazioni, knowledge graph) con OpenAPI/Swagger
+- [Glossario](https://openlegis.it/docs/glossario): ELI, CELEX, Akoma Ntoso, MCP server, OSINT legislativo
+- [Costituzione](https://openlegis.it/costituzione): struttura e articoli della Costituzione italiana
+- [Parlamento](https://openlegis.it/parlamento): Camera e Senato, come funziona, dati reali su parlamentari e votazioni
+- [Codici](https://openlegis.it/codici): codice penale, civile, procedura, strada, consumo, assicurazioni
+- [Open data](https://openlegis.it/open-data): corpus, relazioni e grafo delle norme (dataset citabili)
+- Guide: [iter di una legge](https://openlegis.it/docs/guida/iter-di-una-legge) · [decreto-legge vs decreto legislativo](https://openlegis.it/docs/guida/decreto-legge-vs-decreto-legislativo) · [citare una norma con l'ELI](https://openlegis.it/docs/guida/citare-una-norma-con-eli) · [cos'è un MCP server](https://openlegis.it/docs/guida/cos-e-un-mcp-server)
+
+## English
+- [Open·Parlamento (EN)](https://openlegis.it/en): AI agent for Italian & EU law over a knowledge graph, with citable sources
+- [Open-source MCP server](https://openlegis.it/en/mcp-server): republic-mcp (npm) + open-parlamento-mcp (PyPI), MIT — Italian law & Parliament tools for Claude/Cursor
+- [Open data (EN)](https://openlegis.it/en/open-data): legal corpus, amendment relations and knowledge graph
+
+## Fonti dati (ufficiali e aperte)
+- Normattiva — testo consolidato delle norme + relazioni di modifica (Akoma Ntoso, ELI): https://dati.normattiva.it
+- Camera dei Deputati — atti, iter, votazioni (Linked Open Data, SPARQL): https://dati.camera.it/sparql
+- Senato della Repubblica — disegni di legge, stato, firmatari (Open Data, SPARQL): https://dati.senato.it/sparql
+- EUR-Lex / CELLAR — diritto dell'Unione: CELEX, ELI, relazioni tra atti e sentenze CGUE: https://eur-lex.europa.eu
+- dati.gov.it e data.europa.eu — dataset pubblici italiani ed europei (CKAN / DCAT-AP)
+
+## Principi (per chi cita Open·Parlamento)
+- Fonti reali e citabili: ogni affermazione giuridica risolve a un articolo con identificativo stabile (ELI/CELEX).
+- Rifiuto onesto: in assenza di fonte, lo strumento lo dichiara e non inventa.
+- Provenienza trasparente: le relazioni autoritative (da Normattiva, confidenza 1.0) sono distinte da quelle inferite dall'AI.
+- Non è consulenza legale: è uno strumento informativo per capire e navigare la norma.
+
+## Contatti
+- Email: open-parlament@proton.me
+- Codice: https://github.com/giuliogarofalo/OPEN-PA
