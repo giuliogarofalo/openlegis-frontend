@@ -5,7 +5,7 @@ export default {
   desc: 'Dati aperti e citabili sulla legge italiana: corpus normativo per-articolo, relazioni di modifica autoritative (Normattiva) e grafo delle norme. Per ricerca, giornalismo e OSINT legislativo.',
   kicker: 'dati aperti · OSINT legislativo',
   h1: 'Open data della legge italiana',
-  lead: 'Open·Parlamento è costruito su fonti pubbliche, aperte e citabili. Qui i dati che puoi riusare: il corpus normativo, le relazioni di modifica e il grafo delle norme.',
+  lead: 'OpenLegis è costruito su fonti pubbliche, aperte e citabili. Qui i dati che puoi riusare: il corpus normativo, le relazioni di modifica e il grafo delle norme.',
   ds: 'I dataset',
   items: [
     ['Grafo delle relazioni', 'Le relazioni di modifica/abrogazione/sostituzione tra norme e articoli (da Normattiva, confidenza 1.0), in JSON.', 'JSON'],
@@ -37,7 +37,7 @@ export default {
   relatedH: 'Vedi anche',
   faq: [
     { q: 'Con quale licenza sono i dati?', a: 'Le fonti sono pubbliche e aperte: Normattiva è CC BY 4.0; gli altri portali seguono le rispettive licenze open. Cita sempre la fonte ufficiale.' },
-    { q: 'Come accedo ai dati a livello programmatico?', a: 'Tramite gli MCP server open source (republic-mcp su npm, open-parlamento-mcp su PyPI) o direttamente dalle fonti (SPARQL Camera/Senato, EUR-Lex, Eurostat, CKAN).' },
+    { q: 'Come accedo ai dati a livello programmatico?', a: 'Tramite gli MCP server open source (republic-mcp su npm, openlegis-mcp su PyPI) o direttamente dalle fonti (SPARQL Camera/Senato, EUR-Lex, Eurostat, CKAN).' },
   ],
   disclaimer: 'Strumento informativo — non è consulenza legale.',
 }

@@ -10,7 +10,7 @@ export default {
   appPath: '/app',
   inLanguage: 'en',
   title: 'Italian Constitution — structure, articles and principles',
-  desc: 'The Constitution of the Italian Republic: structure (fundamental principles, rights and duties, organisation of the State), key articles and how to query its text with real sources on Open·Parlamento.',
+  desc: 'The Constitution of the Italian Republic: structure (fundamental principles, rights and duties, organisation of the State), key articles and how to query its text with real sources on OpenLegis.',
   keywords: 'Italian Constitution, constitution of the Italian Republic, fundamental principles, article 1 Italian Constitution, article 3 Italian Constitution, article 21 Italian Constitution, rights and duties, organisation of the Republic',
 
   legislationName: 'Constitution of the Italian Republic',
@@ -19,7 +19,7 @@ export default {
   // Queryable question for each article: {n} is replaced by the article number.
   askArt: (n) => `What does article ${n} of the Italian Constitution establish? Quote the text.`,
 
-  breadcrumbHome: 'Open·Parlamento',
+  breadcrumbHome: 'OpenLegis',
   breadcrumbSelf: 'Constitution',
 
   faq: [

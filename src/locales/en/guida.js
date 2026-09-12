@@ -13,7 +13,7 @@ export default {
   glossarioLabel: 'Glossary',
   glossarioDesc: ' — ELI, CELEX, MCP server, legislative OSINT',
   disclaimer: 'Informational tool — not legal advice.',
-  crumbHome: 'Open·Parlamento',
+  crumbHome: 'OpenLegis',
   crumbDocs: 'Documentation',
   crumbGuide: 'Guides',
   crumbGuidaLabel: 'Guide',
@@ -60,7 +60,7 @@ export default {
       ],
       after: [
         [
-          'On Open·Parlamento you can see what a decree ',
+          'On OpenLegis you can see what a decree ',
           { text: 'amends or repeals', ask: 'What does decreto-legge 19 of 2024 amend?' },
           ' (authoritative relations from Normattiva) and follow its conversion status. See the ',
           { text: 'glossary', href: '/docs/glossario#decreto-legge' },
@@ -85,7 +85,7 @@ export default {
       ],
       after: [
         [
-          'Open·Parlamento uses the ELL/ELI as the anchor of every answer and in the ',
+          'OpenLegis uses the ELL/ELI as the anchor of every answer and in the ',
           { text: 'corpus pages', href: '/norme' },
           '. See also ',
           { text: 'CELEX', href: '/docs/glossario#celex' },
@@ -99,14 +99,14 @@ export default {
     'cos-e-un-mcp-server': {
       title: 'What an MCP server is (and how to use it for the law)',
       kicker: 'guide · developer',
-      desc: 'What an MCP server (Model Context Protocol) is, what it is for and how to connect Open·Parlamento’s open-source MCP servers to Claude Desktop or Cursor to query Italian law and Parliament.',
-      keywords: "what is an MCP server, Model Context Protocol, MCP server tutorial, open source MCP, republic-mcp, open-parlamento-mcp, Claude Desktop MCP",
+      desc: 'What an MCP server (Model Context Protocol) is, what it is for and how to connect OpenLegis’s open-source MCP servers to Claude Desktop or Cursor to query Italian law and Parliament.',
+      keywords: "what is an MCP server, Model Context Protocol, MCP server tutorial, open source MCP, republic-mcp, openlegis-mcp, Claude Desktop MCP",
       lead: 'An MCP server exposes tools (functions) that an AI assistant can call to read real sources instead of making them up. It is the standard way to give a model access to data and actions.',
       steps: [
         { name: 'The Model Context Protocol', text: 'MCP is the open standard that connects an AI client (Claude Desktop, Cursor…) to “servers” offering tools, resources and prompts.' },
         { name: 'What an MCP server does', text: 'It declares a list of functions with their parameters; when the AI invokes them, the server executes (e.g. it looks up a law) and returns structured, citable data.' },
-        { name: 'Open·Parlamento’s MCP servers', text: 'republic-mcp (npm) for the Chamber of Deputies, the Senate and OpenPolis; open-parlamento-mcp (PyPI) for law, EU law, case law, statistics and open data. Both open source (MIT).' },
-        { name: 'Connecting them', text: 'Add the servers to the client configuration (mcpServers): npx -y republic-mcp; pip install open-parlamento-mcp and the open-parlamento-mcp command.' },
+        { name: 'OpenLegis’s MCP servers', text: 'republic-mcp (npm) for the Chamber of Deputies, the Senate and OpenPolis; openlegis-mcp (PyPI) for law, EU law, case law, statistics and open data. Both open source (MIT).' },
+        { name: 'Connecting them', text: 'Add the servers to the client configuration (mcpServers): npx -y republic-mcp; pip install openlegis-mcp and the openlegis-mcp command.' },
       ],
       after: [
         [
@@ -118,7 +118,7 @@ export default {
         ],
       ],
       faq: [
-        { q: 'Are Open·Parlamento’s MCP servers free and open source?', a: 'Yes: MIT code on GitHub, packages on npm and PyPI, data from public and open sources.' },
+        { q: 'Are OpenLegis’s MCP servers free and open source?', a: 'Yes: MIT code on GitHub, packages on npm and PyPI, data from public and open sources.' },
         { q: 'Which clients do they work with?', a: 'With any client compatible with the Model Context Protocol, such as Claude Desktop and Cursor.' },
       ],
     },
@@ -137,7 +137,7 @@ export default {
       ],
       after: [
         [
-          'On Open·Parlamento every law reports its type and identifier (ELI), and the amendment relations show how the sources interweave. See ',
+          'On OpenLegis every law reports its type and identifier (ELI), and the amendment relations show how the sources interweave. See ',
           { text: 'the Italian Constitution', href: '/costituzione' },
           ' and the ',
           { text: 'codes', href: '/codici' },
@@ -162,7 +162,7 @@ export default {
       ],
       after: [
         [
-          'Open·Parlamento reuses Normattiva for the ',
+          'OpenLegis reuses Normattiva for the ',
           { text: 'corpus of laws', href: '/norme' },
           ' and for the amendment relations (what it amends / who amended it). See also ',
           { text: 'how to cite with the ELI', href: '/docs/guida/citare-una-norma-con-eli' },
@@ -183,7 +183,7 @@ export default {
       steps: [
         { name: 'The series', text: 'The Serie Generale (General Series) contains laws, decreti-legge, decreti legislativi, presidential decrees (DPR) and other acts; there are then special series (Corte Costituzionale, EU, Regions, Public competitions, Contracts).' },
         { name: 'Publication and entry into force', text: 'After publication, a law normally enters into force after 15 days (vacatio legis), unless otherwise indicated.' },
-        { name: 'Updates', text: 'The Serie Generale is updated on working days; Open·Parlamento follows its news (RSS feed) to keep the corpus up to date.' },
+        { name: 'Updates', text: 'The Serie Generale is updated on working days; OpenLegis follows its news (RSS feed) to keep the corpus up to date.' },
       ],
       after: [
         [
@@ -212,7 +212,7 @@ export default {
       ],
       after: [
         [
-          'On Open·Parlamento you can see whether a law has been declared unconstitutional or whether it is ',
+          'On OpenLegis you can see whether a law has been declared unconstitutional or whether it is ',
           { text: 'currently being challenged', raw: '/en/app?q=L%27art.%204-bis%20ord.%20penit.%20%C3%A8%20attualmente%20impugnato%20davanti%20alla%20Consulta%3F' },
           ' (pending cases). See the ',
           { text: 'Italian Constitution', href: '/costituzione' },

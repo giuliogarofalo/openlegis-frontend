@@ -8,7 +8,7 @@ export default {
   keywords: 'PNRR contracts, who wins Italy recovery fund contracts, public contract companies Italy, PNRR contracting authorities, public procurement transparency Italy',
   headline: 'Italy PNRR: who wins the public contracts',
 
-  breadcrumbHome: 'Open·Parlamento',
+  breadcrumbHome: 'OpenLegis',
   breadcrumbSelf: 'PNRR',
 
   kicker: 'public data · OSINT',

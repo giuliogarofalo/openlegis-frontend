@@ -2,7 +2,7 @@
 export default {
   lang: 'en', path: '/en/api', alt: '/docs/api',
   title: 'Public API — open data on Italian law',
-  desc: 'Free, read-only REST API over Open·Parlamento open data: statutes, per-article text, amendment relations and the knowledge graph. GET only, with OpenAPI/Swagger. CC BY 4.0.',
+  desc: 'Free, read-only REST API over OpenLegis open data: statutes, per-article text, amendment relations and the knowledge graph. GET only, with OpenAPI/Swagger. CC BY 4.0.',
   kicker: 'open data · read-only API',
   h1: 'Public API',
   lead: 'All the corpus data, in JSON, free and citable: statutes, per-article text, amendment relations and the knowledge graph. A read-only API (GET only), documented with OpenAPI/Swagger.',

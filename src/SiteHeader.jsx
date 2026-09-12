@@ -79,10 +79,10 @@ export default function SiteHeader({ variant = 'landing', status, graphCount = 0
         </div>
       )}
       <header className="app-header">
-        <Link className="brand" to={p('/', '/en')} title="Open·Parlamento — home">
+        <Link className="brand" to={p('/', '/en')} title="OpenLegis — home">
           <span className="seal" />
           <div>
-            <div className="wordmark">Open<b>·</b>Parlamento</div>
+            <div className="wordmark">Open<b>Legis</b></div>
             <div className="tagline">{t('brand.tagline')}</div>
           </div>
         </Link>

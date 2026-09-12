@@ -7,15 +7,15 @@ export default {
   appPath: '/app',
   inLanguage: 'en-US',
   title: 'Artificial intelligence for Italian law',
-  desc: 'Open·Parlamento is the AI resource for Italian law: query the Constitution, codes, decrees and Parliament data with real, citable sources (ELI/CELEX) on a navigable knowledge graph.',
+  desc: 'OpenLegis is the AI resource for Italian law: query the Constitution, codes, decrees and Parliament data with real, citable sources (ELI/CELEX) on a navigable knowledge graph.',
   keywords:
     'AI for Italian law, Italian law AI, artificial intelligence Italian legislation, Italian law chatbot, query Italian law with AI, Italian parliament AI, legal research AI, Italian law API, MCP server Italian law',
   kicker: 'artificial intelligence · law · real sources',
   h1: 'Artificial intelligence for Italian law',
-  breadcrumbHome: 'Open·Parlamento',
+  breadcrumbHome: 'OpenLegis',
   breadcrumbSelf: 'AI for Italian law',
   lead:
-    '<0>Open·Parlamento</0> is an AI agent that answers questions on <0>Italian and EU law</0> — the Constitution, codes, decrees, EU law and the parliamentary process — always citing the <0>official, verifiable source</0>. No made-up answers: every statement rests on a real reference (ELI/CELEX) on a navigable knowledge graph.',
+    '<0>OpenLegis</0> is an AI agent that answers questions on <0>Italian and EU law</0> — the Constitution, codes, decrees, EU law and the parliamentary process — always citing the <0>official, verifiable source</0>. No made-up answers: every statement rests on a real reference (ELI/CELEX) on a navigable knowledge graph.',
   sections: [
     {
       h: 'What you can ask',
@@ -28,7 +28,7 @@ export default {
     {
       h: 'Why it differs from a generic chatbot',
       body: [
-        'A general-purpose assistant can <0>hallucinate</0> articles and law numbers. Open·Parlamento starts from <0>authoritative data</0>: the legal corpus comes from Normattiva in Akoma Ntoso (ELI), EU law from EUR-Lex (CELEX), parliamentary activity from the open data of the Chamber and Senate.',
+        'A general-purpose assistant can <0>hallucinate</0> articles and law numbers. OpenLegis starts from <0>authoritative data</0>: the legal corpus comes from Normattiva in Akoma Ntoso (ELI), EU law from EUR-Lex (CELEX), parliamentary activity from the open data of the Chamber and Senate.',
         'Relations between norms are extracted <0>deterministically</0>, at the single-article level and with the evidence text attached. If a source does not exist, the agent says so instead of inventing it.',
       ],
       cta: [['How it works', '/docs/come-funziona'], ['Data and sources', '/docs/dati']],
@@ -36,7 +36,7 @@ export default {
     {
       h: 'For developers and other AIs',
       body: [
-        'Open·Parlamento is also built to be <0>consumed by other AIs</0>: a public read-only API exposes norms, articles and relations, and an <0>MCP server</0> lets agents like Claude and ChatGPT query Italian law with citable sources.',
+        'OpenLegis is also built to be <0>consumed by other AIs</0>: a public read-only API exposes norms, articles and relations, and an <0>MCP server</0> lets agents like Claude and ChatGPT query Italian law with citable sources.',
         'The data is open (CC BY 4.0) and citable: ideal for legal research, legal-tech and legislative OSINT.',
       ],
       cta: [['Public API', '/docs/api'], ['MCP server', '/docs/mcp-server'], ['Open data', '/open-data']],
@@ -52,18 +52,18 @@ export default {
   faq: [
     {
       q: 'Is there an artificial intelligence for Italian law?',
-      a: 'Yes. Open·Parlamento is an AI agent that answers on the Constitution, codes, decrees and EU law, always citing the official, verifiable source (ELI/CELEX), on a navigable knowledge graph.',
+      a: 'Yes. OpenLegis is an AI agent that answers on the Constitution, codes, decrees and EU law, always citing the official, verifiable source (ELI/CELEX), on a navigable knowledge graph.',
     },
     {
       q: 'Can the AI get the law wrong or make it up?',
-      a: 'Generic models can hallucinate legal references. Open·Parlamento starts from authoritative data (Normattiva in Akoma Ntoso, EUR-Lex, open parliamentary data) and always cites the source; if a norm is not in the corpus, it says so instead of inventing it.',
+      a: 'Generic models can hallucinate legal references. OpenLegis starts from authoritative data (Normattiva in Akoma Ntoso, EUR-Lex, open parliamentary data) and always cites the source; if a norm is not in the corpus, it says so instead of inventing it.',
     },
     {
-      q: 'Can I use Open·Parlamento from my own AI or tools?',
+      q: 'Can I use OpenLegis from my own AI or tools?',
       a: 'Yes. There is a public read-only API and an MCP server that lets agents like Claude or ChatGPT query Italian law with citable sources. The data is open (CC BY 4.0).',
     },
     {
-      q: 'Is Open·Parlamento legal advice?',
+      q: 'Is OpenLegis legal advice?',
       a: 'No. It is an informational tool that always cites the official source and invites you to verify it; it does not replace legal advice.',
     },
   ],

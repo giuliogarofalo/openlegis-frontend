@@ -10,7 +10,7 @@ export default {
   keywords: 'parlamento italiano, camera dei deputati, senato della repubblica, come funziona il parlamento, bicameralismo, gruppi parlamentari, votazioni parlamento, iter legislativo',
   headline: 'Il Parlamento italiano: Camera, Senato e come funziona',
 
-  breadcrumbHome: 'Open·Parlamento',
+  breadcrumbHome: 'OpenLegis',
   breadcrumbSelf: 'Parlamento',
 
   faq: [

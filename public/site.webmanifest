@@ -1,6 +1,6 @@
 {
-  "name": "Open·Parlamento",
-  "short_name": "Open·Parlamento",
+  "name": "OpenLegis",
+  "short_name": "OpenLegis",
   "description": "Interroga la legge italiana ed europea con fonti reali e citabili, su un grafo di conoscenza navigabile.",
   "lang": "it",
   "start_url": "/",

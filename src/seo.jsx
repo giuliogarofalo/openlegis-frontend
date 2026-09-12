@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next'
 import { itPathOf, altsFor } from './locale.js'
 
 export const SITE = 'https://openlegis.it'
-export const SITE_NAME = 'Open·Parlamento'
+export const SITE_NAME = 'OpenLegis'
 export const DEFAULT_DESC =
   'Un agente che risponde su Costituzione, codici e diritto UE con fonti reali e citabili (ELI/CELEX), su un grafo di conoscenza navigabile.'
 export const DEFAULT_DESC_EN =
@@ -29,7 +29,7 @@ function globalLd(lang = 'it') {
       '@type': 'Organization',
       '@id': SITE + '/#org',
       name: SITE_NAME,
-      alternateName: 'Open Parlamento',
+      alternateName: 'Open Legis',
       url: SITE,
       logo: SITE + '/icon-512.png',
       description: DEFAULT_DESC,

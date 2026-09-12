@@ -23,7 +23,7 @@ const ogHtml = () => `<!doctype html><html><head><meta charset="utf-8">${FONTS}<
     padding:70px 80px;position:relative;overflow:hidden}
   .frame{position:absolute;inset:28px;border:1px solid rgba(201,162,75,.28);border-radius:18px}
   .seal{width:88px;height:88px;border-radius:50%;border:2.5px solid ${BRASS};
-    display:grid;place-items:center;font-size:48px;color:${BRASS2};
+    display:grid;place-items:center;font-size:34px;letter-spacing:-0.04em;color:${BRASS2};
     background:radial-gradient(circle at 50% 40%, rgba(201,162,75,.22), transparent 70%);margin-bottom:26px}
   .eyebrow{font-family:'IBM Plex Mono',monospace;font-size:19px;letter-spacing:.32em;
     text-transform:uppercase;color:${MUTED};margin-bottom:14px}
@@ -36,9 +36,9 @@ const ogHtml = () => `<!doctype html><html><head><meta charset="utf-8">${FONTS}<
     font-size:19px;letter-spacing:.14em;color:${BRASS2}}
 </style></head><body>
   <div class="frame"></div>
-  <div class="seal">§</div>
+  <div class="seal">OL</div>
   <div class="eyebrow">legge · dati · grafo vivo</div>
-  <h1>Open<b>·</b>Parlamento<br><span class="accent">interroga lo Stato, con le fonti.</span></h1>
+  <h1>Open<b>Legis</b><br><span class="accent">interroga lo Stato, con le fonti.</span></h1>
   <p>Costituzione, codici e diritto UE su un grafo navigabile. Ogni risposta cita la fonte reale (ELI/CELEX).</p>
   <div class="foot">openlegis.it</div>
 </body></html>`
@@ -49,7 +49,7 @@ const iconHtml = (size) => `<!doctype html><html><head><meta charset="utf-8"><st
     <rect width="64" height="64" rx="14" fill="${INK}"/>
     <circle cx="32" cy="32" r="20" fill="none" stroke="${BRASS}" stroke-width="3"/>
     <text x="32" y="34" text-anchor="middle" dominant-baseline="central"
-      font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="30" fill="${BRASS2}">§</text>
+      font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="22" letter-spacing="-1" fill="${BRASS2}">OL</text>
   </svg></body></html>`
 
 const browser = await chromium.launch()

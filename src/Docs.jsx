@@ -17,7 +17,7 @@ const LINKS = {
   github: 'https://github.com/giuliogarofalo/RepublicMCP',      // repo pubblico (l'origine) — il monorepo del progetto è privato
   republicMCP: 'https://github.com/giuliogarofalo/RepublicMCP', // repo del connettore republicMCP
   republicMCPnpm: 'https://www.npmjs.com/package/republic-mcp', // pacchetto npm pubblicato
-  mcpPypi: 'https://pypi.org/project/open-parlamento-mcp/',     // server MCP su PyPI
+  mcpPypi: 'https://pypi.org/project/openlegis-mcp/',     // server MCP su PyPI
   normattiva: 'https://dati.normattiva.it',
   camera: 'https://dati.camera.it/sparql',
   senato: 'https://dati.senato.it/sparql',

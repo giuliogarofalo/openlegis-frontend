@@ -2,16 +2,16 @@
 // typed relations, the agent flow and the roadmap). Bilingual (/come-funziona ↔ /how-it-works).
 export default {
   lang: 'en', path: '/en/how-it-works',
-  title: 'How Open·Parlamento works: graph, relations and the agent flow',
-  desc: 'How Open·Parlamento works: the objective, the three-layer knowledge graph, the typed relations between statutes and the flow the agent uses to retrieve, evaluate and present sources. Plus the roadmap.',
+  title: 'How OpenLegis works: graph, relations and the agent flow',
+  desc: 'How OpenLegis works: the objective, the three-layer knowledge graph, the typed relations between statutes and the flow the agent uses to retrieve, evaluate and present sources. Plus the roadmap.',
   keywords: 'how open parlamento works, legal knowledge graph, relations between statutes, AI law agent, legal RAG, verbatim citations, ELI CELEX, roadmap, legislative process',
   kicker: 'method · objective · roadmap',
-  h1: 'How Open·Parlamento works',
-  lead: 'Open·Parlamento is not a «fixed» legal chatbot: it is an agent that answers by uniting law and public data, always citing the source. Here I explain the objective, how the graph is built, how the agent retrieves and evaluates information, and where the project is heading.',
+  h1: 'How OpenLegis works',
+  lead: 'OpenLegis is not a «fixed» legal chatbot: it is an agent that answers by uniting law and public data, always citing the source. Here I explain the objective, how the graph is built, how the agent retrieves and evaluates information, and where the project is heading.',
 
   goalH: 'The objective',
   goalP1: 'To make the State queryable by anyone — not just lawyers and insiders — with answers traceable back to the official source.',
-  goalP2: 'There is a gap no one bridges today: those who hold public data don’t have the law (they can’t tell you whether something is lawful or constitutional); legal bots have the law but no data, and often hallucinate without real citations. Open·Parlamento unites the two worlds — «law ↔ data» — in a single navigable graph.',
+  goalP2: 'There is a gap no one bridges today: those who hold public data don’t have the law (they can’t tell you whether something is lawful or constitutional); legal bots have the law but no data, and often hallucinate without real citations. OpenLegis unites the two worlds — «law ↔ data» — in a single navigable graph.',
   goalCards: [
     ['§', 'Real, citable sources', 'Every legal statement resolves to an article with a stable identifier: ELI for Italy, CELEX for the EU. Never paraphrased.'],
     ['⚖', 'Honest refusal', 'If there is no source, the agent says so and does not make things up («refuse-on-no-source»).'],

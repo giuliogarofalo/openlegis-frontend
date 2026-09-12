@@ -5,7 +5,7 @@ export default {
   // <br/> reso nel componente; due righe del titolo:
   titleLine1: 'Interroga lo Stato.',
   titleLine2: 'Con le fonti in mano.',
-  sub: '<0>Open·Parlamento</0> risponde sulla legge italiana ed europea — Costituzione, codici, decreti, diritto UE — su un <0>grafo navigabile</0>, intrecciando i <0>dati pubblici reali</0>. Ogni risposta cita la fonte; se non c’è, lo dice.',
+  sub: '<0>OpenLegis</0> risponde sulla legge italiana ed europea — Costituzione, codici, decreti, diritto UE — su un <0>grafo navigabile</0>, intrecciando i <0>dati pubblici reali</0>. Ogni risposta cita la fonte; se non c’è, lo dice.',
   caps: [
     ['§', 'Chiedi la legge', 'Cosa dice la norma, con l’articolo esatto e citabile.'],
     ['⚖', 'Segui un DDL', 'A che punto è un disegno di legge, chi lo firma, come vota il Parlamento.'],

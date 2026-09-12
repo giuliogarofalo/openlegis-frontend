@@ -8,7 +8,7 @@ export default {
   keywords: 'ddl senato, disegno di legge, iter parlamentare, conformità costituzionale, giurisprudenza corte costituzionale',
   headline: 'DDL: tabella comparativa e conformità',
 
-  breadcrumbHome: 'Open·Parlamento',
+  breadcrumbHome: 'OpenLegis',
   breadcrumbSelf: 'DDL',
 
   kicker: 'dati pubblici · citazione per citazione',

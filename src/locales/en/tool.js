@@ -1,8 +1,8 @@
 // Tool — English editorial content. Imported directly by Tool.jsx.
 export default {
   // Pre-filled feedback email (floating CTA).
-  feedbackSubject: 'Open·Parlamento — my feedback',
-  feedbackBody: 'Hi!\n\nI tried Open·Parlamento and wanted to tell you that…\n\n',
+  feedbackSubject: 'OpenLegis — my feedback',
+  feedbackBody: 'Hi!\n\nI tried OpenLegis and wanted to tell you that…\n\n',
 
   // Feedback CTA.
   feedbackTitle: 'Tell me what you think',

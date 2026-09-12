@@ -185,7 +185,7 @@ function footerHtml() {
   return `<footer class="c-foot">
   Fonte: <a href="https://dati.normattiva.it" rel="noopener">Normattiva</a> (Akoma Ntoso, ELI · CC BY 4.0) ·
   relazioni di modifica autoritative. Strumento informativo, non consulenza legale.<br>
-  <a href="/">Open·Parlamento</a> · <a href="/norme">tutte le norme</a> · <a href="/app">interroga la legge</a> · <a href="/intelligenza-artificiale-legge-italiana">intelligenza artificiale per la legge italiana</a> · OSINT legislativo italiano.<br>
+  <a href="/">OpenLegis</a> · <a href="/norme">tutte le norme</a> · <a href="/app">interroga la legge</a> · <a href="/intelligenza-artificiale-legge-italiana">intelligenza artificiale per la legge italiana</a> · OSINT legislativo italiano.<br>
   Un progetto di <a href="https://growflow.studio" rel="noopener">GrowFlow Studio</a>.
 </footer>`
 }
@@ -196,7 +196,7 @@ function page({ title, description, path, jsonLd, body }) {
 <html lang="it">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>${esc(title)} — Open·Parlamento</title>
+<title>${esc(title)} — OpenLegis</title>
 <meta name="description" content="${esc(description)}">
 <meta name="keywords" content="${esc(title)}, normativa italiana, Normattiva, ELI, open data, OSINT legislativo, legge, decreto">
 <link rel="canonical" href="${url}">
@@ -204,13 +204,13 @@ function page({ title, description, path, jsonLd, body }) {
 <meta name="theme-color" content="#0b0d11">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/corpus.css">
-<meta property="og:site_name" content="Open·Parlamento"><meta property="og:locale" content="it_IT">
+<meta property="og:site_name" content="OpenLegis"><meta property="og:locale" content="it_IT">
 <meta property="og:type" content="article"><meta property="og:url" content="${url}">
-<meta property="og:title" content="${esc(title)} — Open·Parlamento">
+<meta property="og:title" content="${esc(title)} — OpenLegis">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:image" content="${SITE}/og-cover.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="${esc(title)} — Open·Parlamento">
+<meta name="twitter:title" content="${esc(title)} — OpenLegis">
 <meta name="twitter:description" content="${esc(description)}">
 <meta name="twitter:image" content="${SITE}/og-cover.png">
 ${FONTS}
@@ -300,7 +300,7 @@ for (const n of norme) {
   }
   const crumbsLd = {
     '@context': 'https://schema.org', '@type': 'BreadcrumbList',
-    itemListElement: [['Open·Parlamento', '/'], ['Norme', '/norme'], [h1, path]]
+    itemListElement: [['OpenLegis', '/'], ['Norme', '/norme'], [h1, path]]
       .map(([name, u], i) => ({ '@type': 'ListItem', position: i + 1, name, item: SITE + u })),
   }
 
@@ -329,7 +329,7 @@ ${artList}
 `
   write(path, page({
     title: `${h1}${n.titolo ? ' — ' + clip(n.titolo, 70) : ''}`,
-    description: clip(`${h1}: ${n.titolo || ''}. ${out.length} relazioni di modifica, ${n.arts.length} articoli. Testo e fonti su Open·Parlamento.`, 155),
+    description: clip(`${h1}: ${n.titolo || ''}. ${out.length} relazioni di modifica, ${n.arts.length} articoli. Testo e fonti su OpenLegis.`, 155),
     path, jsonLd: [ld, crumbsLd], body,
   }))
   allPages++
@@ -351,7 +351,7 @@ ${artList}
     }
     const aCrumbs = {
       '@context': 'https://schema.org', '@type': 'BreadcrumbList',
-      itemListElement: [['Open·Parlamento', '/'], ['Norme', '/norme'], [h1, path], [`Art. ${a.num}`, aPath]]
+      itemListElement: [['OpenLegis', '/'], ['Norme', '/norme'], [h1, path], [`Art. ${a.num}`, aPath]]
         .map(([name, u], idx) => ({ '@type': 'ListItem', position: idx + 1, name, item: SITE + u })),
     }
     const aBody = `
@@ -386,7 +386,7 @@ const byTipo = new Map()
 for (const n of norme) { const t = parseEli(n.eli).tipo; if (!byTipo.has(t)) byTipo.set(t, []); byTipo.get(t).push(n) }
 const indexLd = {
   '@context': 'https://schema.org', '@type': 'CollectionPage',
-  name: 'Norme indicizzate — Open·Parlamento', url: SITE + '/norme', inLanguage: 'it',
+  name: 'Norme indicizzate — OpenLegis', url: SITE + '/norme', inLanguage: 'it',
   description: `Catalogo di ${norme.length} norme italiane (decreti, leggi) con testo per-articolo e relazioni di modifica.`,
   isPartOf: { '@type': 'WebSite', url: SITE },
 }

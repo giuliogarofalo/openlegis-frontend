@@ -5,18 +5,18 @@ export default {
   path: '/docs/glossario',
   inLanguage: 'en',
   title: 'Glossary — ELI, CELEX, MCP server, legislative OSINT',
-  desc: 'Open·Parlamento glossary: ELI, CELEX, Akoma Ntoso, Normattiva, MCP server, knowledge graph, SPARQL, CKAN, legislative OSINT and the terms of the Italian legislative process.',
+  desc: 'OpenLegis glossary: ELI, CELEX, Akoma Ntoso, Normattiva, MCP server, knowledge graph, SPARQL, CKAN, legislative OSINT and the terms of the Italian legislative process.',
   keywords: 'legal glossary, what is ELI, what is CELEX, Akoma Ntoso, what is an MCP server, legal knowledge graph, legislative OSINT, SPARQL, CKAN, decree-law, legislative decree',
-  setName: 'Glossary — Open·Parlamento',
+  setName: 'Glossary — OpenLegis',
 
-  breadcrumbHome: 'Open·Parlamento',
+  breadcrumbHome: 'OpenLegis',
   breadcrumbDocs: 'Documentation',
   breadcrumbSelf: 'Glossary',
   docsPath: '/docs',
 
   kicker: 'documentation · definitions',
   h1: 'Glossary',
-  lead: 'The terms of Open·Parlamento, in plain language: the identifiers of statutes, the open formats, the tools for AI and the vocabulary of the Italian legislative process.',
+  lead: 'The terms of OpenLegis, in plain language: the identifiers of statutes, the open formats, the tools for AI and the vocabulary of the Italian legislative process.',
 
   // Closing "learn more" paragraph (three internal links).
   more: {
@@ -26,7 +26,7 @@ export default {
     eliPath: '/docs/guida/citare-una-norma-con-eli',
     eliLabel: 'citing a statute with the ELI',
     serverPath: '/docs/mcp-server',
-    serverLabel: 'Open·Parlamento’s MCP servers',
+    serverLabel: 'OpenLegis’s MCP servers',
     post: '.',
   },
 
@@ -38,9 +38,9 @@ export default {
     { id: 'iter-legislativo', name: 'Iter legislativo (legislative process)', description: 'The path by which a bill or a legislative proposal becomes law: introduction, examination in committee, approval by the Chamber of Deputies and the Senate, promulgation and publication in the Gazzetta Ufficiale.' },
     { id: 'decreto-legge', name: 'Decreto-legge (decree-law, D.L.)', description: 'An act with the force of law adopted by the Italian Government in cases of necessity and urgency; it lapses if not converted into law by Parliament within 60 days (art. 77 of the Italian Constitution).' },
     { id: 'decreto-legislativo', name: 'Decreto legislativo (legislative decree, D.lgs)', description: 'An act with the force of law issued by the Italian Government under a delegation from Parliament (enabling law), within the principles and time limits set by the delegation (art. 76 of the Italian Constitution).' },
-    { id: 'mcp-server', name: 'MCP server (Model Context Protocol)', description: 'A program that exposes tools (functions) callable by an AI assistant through the Model Context Protocol, the open standard introduced to connect models with external sources/data. Open·Parlamento publishes two open-source MCP servers: republic-mcp and open-parlamento-mcp.' },
+    { id: 'mcp-server', name: 'MCP server (Model Context Protocol)', description: 'A program that exposes tools (functions) callable by an AI assistant through the Model Context Protocol, the open standard introduced to connect models with external sources/data. OpenLegis publishes two open-source MCP servers: republic-mcp and openlegis-mcp.' },
     { id: 'knowledge-graph', name: 'Knowledge graph', description: 'A representation of data as a network of entities (statutes, articles, acts) linked by typed relations (amends, repeals, refers to). It lets you navigate the law as a graph instead of as isolated text.' },
-    { id: 'graphrag', name: 'GraphRAG / LightRAG', description: 'A Retrieval-Augmented Generation technique that combines semantic search and a knowledge graph to give answers anchored to sources. LightRAG is the GraphRAG engine (MIT) used by Open·Parlamento for the per-article text.' },
+    { id: 'graphrag', name: 'GraphRAG / LightRAG', description: 'A Retrieval-Augmented Generation technique that combines semantic search and a knowledge graph to give answers anchored to sources. LightRAG is the GraphRAG engine (MIT) used by OpenLegis for the per-article text.' },
     { id: 'sparql', name: 'SPARQL', description: 'A query language for data in RDF format (Linked Open Data). The Chamber of Deputies and the Senate expose their data (acts, parliamentary process, votes) via SPARQL endpoints.' },
     { id: 'ckan', name: 'CKAN', description: 'An open-source platform for open-data portals. A single API (/api/3/action/…) reaches hundreds of portals: dati.gov.it, data.europa.eu and many regional catalogues.' },
     { id: 'osint-legislativo', name: 'Legislative OSINT', description: 'Open-source intelligence applied to legislation: analysis based exclusively on public, open and citable sources (statutes, parliamentary process, parliamentary data), with stable identifiers that make verification possible.' },

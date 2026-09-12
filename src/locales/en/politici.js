@@ -8,7 +8,7 @@ export default {
   keywords: 'most active MPs Italy, who signs the most laws, parliamentary groups 19th legislature, first signers chamber senate, legislative activity Italy',
   headline: 'Italian MPs: who signs the most bills',
 
-  breadcrumbHome: 'Open·Parlamento',
+  breadcrumbHome: 'OpenLegis',
   breadcrumbSelf: 'MPs',
 
   kicker: 'public data · OSINT',

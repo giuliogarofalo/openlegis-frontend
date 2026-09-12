@@ -8,7 +8,7 @@ export default {
   keywords: 'PNRR appalti, chi vince gli appalti PNRR, aziende appalti pubblici, enti appaltanti PNRR, trasparenza appalti pubblici',
   headline: 'PNRR: chi vince gli appalti',
 
-  breadcrumbHome: 'Open·Parlamento',
+  breadcrumbHome: 'OpenLegis',
   breadcrumbSelf: 'PNRR',
 
   kicker: 'dati pubblici · OSINT',

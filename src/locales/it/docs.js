@@ -26,7 +26,7 @@ export default {
     nome: 'Giulio',
     ruolo: 'Founder & sviluppatore — solo, per ora',
     bio: [
-      'Costruisco Open·Parlamento da solo: un progetto grande, nato dall’idea che lo Stato debba essere interrogabile da chiunque, non solo dagli addetti ai lavori.',
+      'Costruisco OpenLegis da solo: un progetto grande, nato dall’idea che lo Stato debba essere interrogabile da chiunque, non solo dagli addetti ai lavori.',
       'Vengo dal mondo del software e dei dati. Mi interessa l’incrocio fra diritto, dati pubblici e AI affidabile — strumenti che citano la fonte invece di inventarla.',
     ],
   },
@@ -44,18 +44,18 @@ export default {
 
   // Per-section meta-description (≤160 chars) for SEO/GEO.
   sectionDesc: {
-    progetto: 'Cos’è Open·Parlamento e perché: un agente che unisce legge e dati pubblici, con risposte tracciabili fino alla fonte ufficiale (ELI/CELEX).',
+    progetto: 'Cos’è OpenLegis e perché: un agente che unisce legge e dati pubblici, con risposte tracciabili fino alla fonte ufficiale (ELI/CELEX).',
     'come-funziona': 'Come funziona l’agente: sceglie gli strumenti giusti — legge, iter parlamentare, modifiche, dati, diritto UE — e sintetizza risposte che citano le fonti.',
     grafo: 'Il knowledge graph in tre livelli: testo verbatim della norma, relazioni autoritative da Normattiva (Akoma Ntoso) e wiki esplicativa.',
     dati: 'Le fonti: norme italiane e UE, iter parlamentare, giurisprudenza (Consulta, Cassazione, CGUE) e open data — tutte ufficiali e aperte.',
-    connettori: 'I connettori di Open·Parlamento: pochi standard aperti (CKAN, SPARQL, Akoma Ntoso) aprono centinaia di portali e l’intero corpus normativo.',
+    connettori: 'I connettori di OpenLegis: pochi standard aperti (CKAN, SPARQL, Akoma Ntoso) aprono centinaia di portali e l’intero corpus normativo.',
     collegati: 'L’ecosistema su cui poggia: Normattiva, dati.camera.it, dati.senato.it, EUR-Lex, data.europa.eu, LightRAG.',
-    chi: 'Chi c’è dietro Open·Parlamento: Giulio, founder e sviluppatore. Uno strumento che cita la fonte invece di sostituirla.',
-    collabora: 'Come contribuire a Open·Parlamento: codice, fonti e connettori, feedback, passaparola. Progetto aperto e indipendente.',
+    chi: 'Chi c’è dietro OpenLegis: Giulio, founder e sviluppatore. Uno strumento che cita la fonte invece di sostituirla.',
+    collabora: 'Come contribuire a OpenLegis: codice, fonti e connettori, feedback, passaparola. Progetto aperto e indipendente.',
   },
 
   // Etichette UI condivise
-  breadcrumbHome: 'Open·Parlamento',
+  breadcrumbHome: 'OpenLegis',
   breadcrumbDocs: 'Documentazione',
   inLanguage: 'it-IT',
   authorName: 'Giulio Garofalo',
@@ -66,11 +66,11 @@ export default {
   progetto: {
     kicker: 'il progetto',
     h1: 'Interroga lo Stato, con le fonti in mano.',
-    lead: '<0>Open·Parlamento</0> è un agente che risponde unendo <0>LEGGE</0> e <0>DATI</0>: la norma — Costituzione, codici, decreti, diritto dell’Unione — su un <0>knowledge graph navigabile</0> con citazioni verbatim, intrecciata ai <0>dati pubblici reali</0> presi dai portali open-data.',
+    lead: '<0>OpenLegis</0> è un agente che risponde unendo <0>LEGGE</0> e <0>DATI</0>: la norma — Costituzione, codici, decreti, diritto dell’Unione — su un <0>knowledge graph navigabile</0> con citazioni verbatim, intrecciata ai <0>dati pubblici reali</0> presi dai portali open-data.',
     p1: 'Non risponde solo a “cosa dice la legge”, ma a domande che oggi richiedono ore di lavoro: <1>cosa è cambiato, chi l’ha cambiato, a che punto è quel disegno di legge, quali dati riguardano questa norma.</1>',
     cards: [
       ['§', 'Il fine', 'Rendere lo Stato <0>interrogabile da chiunque</0> — non solo da giuristi e addetti ai lavori — con risposte tracciabili fino alla fonte ufficiale.'],
-      ['⚖', 'Il fossato', 'Chi ha i <0>dati</0> non ha la <0>legge</0>; i bot legali hanno la legge ma non i dati. Open·Parlamento unisce i due mondi in un unico grafo.'],
+      ['⚖', 'Il fossato', 'Chi ha i <0>dati</0> non ha la <0>legge</0>; i bot legali hanno la legge ma non i dati. OpenLegis unisce i due mondi in un unico grafo.'],
       ['↯', 'Il moltiplicatore', 'Pochi <0>connettori standard</0> (CKAN, SPARQL, Akoma Ntoso) aprono centinaia di portali e l’intero corpus normativo, senza scraping fragile.'],
     ],
     principiH: 'Principi',
@@ -133,7 +133,7 @@ export default {
 
   dati: {
     kicker: 'i dati & le fonti',
-    h1: 'Cosa analizza Open·Parlamento.',
+    h1: 'Cosa analizza OpenLegis.',
     lead: 'Tutte fonti <0>ufficiali e aperte</0>. Niente scraping fragile dove esiste un’API o un dump standard.',
     thDomain: 'Dominio',
     thWhat: 'Cosa',
@@ -189,7 +189,7 @@ export default {
       '<0>Link rotti e limiti nascosti, anche dove l\'API c\'è.</0> Sul portale open-data europeo i collegamenti ai dataset arrivavano <0>spuntati</0> (un campo «identificativo» restituito come lista) e li abbiamo dovuti ricostruire. L\'API statistica dell\'ISTAT prima non rispondeva affatto, poi è tornata ma <0>limitata a 5 richieste al minuto</0>.',
       '<0>Progetti civici abbandonati.</0> Ottime iniziative ormai ferme: i <0>bilanci comunali</0> aggiornati solo fino al 2021/22, la piattaforma <0>Open Municipio</0> senza aggiornamenti dal 2017. Dati preziosi che lentamente diventano inservibili.',
     ],
-    stateP2: 'Non è un dettaglio tecnico: è il motivo per cui dati che <1>dovrebbero</1> essere di tutti restano, di fatto, accessibili solo a chi ha tempo e competenze per «addomesticarli». <0>Questo è il lavoro che Open·Parlamento fa per te</0>: un livello che rende interrogabili fonti che, da sole, non lo sono — citando sempre l\'originale.',
+    stateP2: 'Non è un dettaglio tecnico: è il motivo per cui dati che <1>dovrebbero</1> essere di tutti restano, di fatto, accessibili solo a chi ha tempo e competenze per «addomesticarli». <0>Questo è il lavoro che OpenLegis fa per te</0>: un livello che rende interrogabili fonti che, da sole, non lo sono — citando sempre l\'originale.',
   },
 
   connettori: {
@@ -223,21 +223,21 @@ export default {
       ['Akoma Ntoso parlamentare', 'Testi degli emendamenti e dei lavori preparatori'],
     ],
     notePre: 'Hai una fonte o un portale che dovrei collegare? ',
-    noteSubject: 'Open·Parlamento — proposta connettore',
+    noteSubject: 'OpenLegis — proposta connettore',
     noteCta: 'Scrivimi →',
   },
 
   collegati: {
     kicker: 'progetti collegati',
     h1: 'I miei progetti e l’ecosistema.',
-    lead: 'Open·Parlamento è reuse-first: i miei progetti open source stanno in piedi su progetti aperti e fonti ufficiali di terzi.',
+    lead: 'OpenLegis è reuse-first: i miei progetti open source stanno in piedi su progetti aperti e fonti ufficiali di terzi.',
     soonTag: 'presto pubblico',
     mineH: 'I miei progetti & librerie',
     mine: [
-      ['Open·Parlamento — codice', 'Il repository del progetto: agente, connettori, stack e deploy. Open source.', 'github'],
+      ['OpenLegis — codice', 'Il repository del progetto: agente, connettori, stack e deploy. Open source.', 'github'],
       ['republicMCP — repo', 'L’origine. Il connettore MCP che espone Camera e Senato come strumenti agentici (SPARQL), con le ontologie OCD/OSR documentate. Open source.', 'republicMCP'],
       ['republic-mcp — npm', 'Il pacchetto pubblicato: «npx republic-mcp», usabile da Claude Desktop, Cursor e altri client MCP.', 'republicMCPnpm'],
-      ['open-parlamento-mcp — PyPI', 'Il server MCP di Open·Parlamento (cerca_legge, dati, iter Camera/Senato, modifiche Normattiva): «pip install open-parlamento-mcp».', 'mcpPypi'],
+      ['openlegis-mcp — PyPI', 'Il server MCP di OpenLegis (cerca_legge, dati, iter Camera/Senato, modifiche Normattiva): «pip install openlegis-mcp».', 'mcpPypi'],
     ],
     mineCta: 'Tutti i progetti & librerie →',
     minePath: '/progetti',
@@ -268,8 +268,8 @@ export default {
     // tipoHref: 'github' usa LINKS.github; 'mail:<oggetto>' compone un mailto.
     ways: [
       ['✎', 'Codice', 'Apri una issue o una pull request su RepublicMCP: connettori, query SPARQL, copertura delle ontologie.', 'github', 'GitHub'],
-      ['◇', 'Fonti & connettori', 'Segnala portali open-data, dataset o fonti normative da collegare.', 'mail:Open·Parlamento — fonte/connettore', 'Scrivimi'],
-      ['✉', 'Feedback', 'Hai provato l’app? Dimmi cosa funziona e cosa no.', 'mail:Open·Parlamento — feedback', 'Feedback'],
+      ['◇', 'Fonti & connettori', 'Segnala portali open-data, dataset o fonti normative da collegare.', 'mail:OpenLegis — fonte/connettore', 'Scrivimi'],
+      ['✉', 'Feedback', 'Hai provato l’app? Dimmi cosa funziona e cosa no.', 'mail:OpenLegis — feedback', 'Feedback'],
       ['★', 'Sostieni', 'Il progetto è aperto e indipendente. Diffonderlo è già un grande aiuto.', 'github', 'Metti una stella'],
     ],
     notePre: 'Contatto diretto: ',

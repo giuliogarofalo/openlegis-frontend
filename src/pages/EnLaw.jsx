@@ -17,7 +17,7 @@ export default function EnLaw() {
       author: { '@type': 'Person', name: 'Giulio Garofalo' }, publisher: { '@id': 'https://openlegis.it/#org' },
     },
     faqPage(enC.faq),
-    breadcrumb([['Open·Parlamento', '/en'], ['Italian law', path]]),
+    breadcrumb([['OpenLegis', '/en'], ['Italian law', path]]),
   ]
   return (
     <>
@@ -28,14 +28,14 @@ export default function EnLaw() {
       <main className="docs-content">
         <article className="docs-article">
           <div className="crumbs-mini" style={{ fontFamily: 'var(--font-mono)', fontSize: 11, color: 'var(--muted)', marginBottom: 14 }}>
-            <a href="/en">Open·Parlamento</a> › <span>Italian law</span>
+            <a href="/en">OpenLegis</a> › <span>Italian law</span>
           </div>
           <header className="doc-h">
             <div className="doc-kicker">italian law · real sources</div>
             <h1>Italian law, explained and queryable</h1>
           </header>
           <p className="lead">
-            Open·Parlamento turns Italian law into something you can read, navigate and cite: the Constitution,
+            OpenLegis turns Italian law into something you can read, navigate and cite: the Constitution,
             the codes, consolidated statutes and EU law — each with a stable identifier (ELI/CELEX) and the real
             amendment relations behind it.
           </p>

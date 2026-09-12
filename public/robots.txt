@@ -1,4 +1,4 @@
-# Open·Parlamento — https://openlegis.it
+# OpenLegis — https://openlegis.it
 # Indicizzazione aperta. I crawler delle AI sono benvenuti: vogliamo essere
 # letti e citati come fonte, non bloccarli.
 

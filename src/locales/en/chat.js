@@ -52,7 +52,7 @@ export default {
 
   // Message role labels.
   roleUser: 'Your question',
-  roleAgent: 'Open Parlamento',
+  roleAgent: 'OpenLegis',
 
   // "thinking" state.
   thinkingStream: 'consulting the sources…',

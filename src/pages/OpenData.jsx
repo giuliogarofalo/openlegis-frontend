@@ -22,7 +22,7 @@ export default function OpenData() {
       distribution: [{ encodingFormat: 'application/json', contentUrl: GRAPH_URL }], lang,
     }),
     faqPage(t.faq),
-    breadcrumb(lang === 'en' ? [['Open·Parlamento', '/en'], ['Open data', t.path]] : [['Open·Parlamento', '/'], ['Open data', t.path]]),
+    breadcrumb(lang === 'en' ? [['OpenLegis', '/en'], ['Open data', t.path]] : [['OpenLegis', '/'], ['Open data', t.path]]),
   ]
   return (
     <>
@@ -32,7 +32,7 @@ export default function OpenData() {
       <main className="docs-content">
         <article className="docs-article">
           <div className="crumbs-mini" style={{ fontFamily: 'var(--font-mono)', fontSize: 11, color: 'var(--muted)', marginBottom: 14 }}>
-            <a href={lang === 'en' ? '/en' : '/'}>Open·Parlamento</a> › <span>Open data</span>
+            <a href={lang === 'en' ? '/en' : '/'}>OpenLegis</a> › <span>Open data</span>
           </div>
           <header className="doc-h">
             <div className="doc-kicker">{t.kicker}</div>

@@ -43,7 +43,7 @@ function Index({ c, lang }) {
       <main className="docs-content">
         <article className="docs-article">
           <div className="crumbs-mini" style={{ fontFamily: 'var(--font-mono)', fontSize: 11, color: 'var(--muted)', marginBottom: 14 }}>
-            <a href={homeHref}>Open·Parlamento</a> › <span>{c.breadcrumbCodici}</span>
+            <a href={homeHref}>OpenLegis</a> › <span>{c.breadcrumbCodici}</span>
           </div>
           <header className="doc-h"><div className="doc-kicker">{t.kicker}</div><h1>{t.h1}</h1></header>
           <p className="lead">{t.lead}</p>
@@ -99,7 +99,7 @@ export default function Codici() {
       <main className="docs-content">
         <article className="docs-article">
           <div className="crumbs-mini" style={{ fontFamily: 'var(--font-mono)', fontSize: 11, color: 'var(--muted)', marginBottom: 14 }}>
-            <a href={homeHref}>Open·Parlamento</a> › <a href={codiciBase}>{c.breadcrumbCodici}</a> › <span>{cc.nome}</span>
+            <a href={homeHref}>OpenLegis</a> › <a href={codiciBase}>{c.breadcrumbCodici}</a> › <span>{cc.nome}</span>
           </div>
           <header className="doc-h"><div className="doc-kicker">{t.kickerPre}{cc.anno}</div><h1>{cc.nome}</h1></header>
           <p className="lead">{cc.lead}</p>

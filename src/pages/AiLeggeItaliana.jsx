@@ -39,7 +39,7 @@ export default function AiLeggeItaliana() {
       <main className="docs-content">
         <article className="docs-article">
           <div className="crumbs-mini" style={{ fontFamily: 'var(--font-mono)', fontSize: 11, color: 'var(--muted)', marginBottom: 14 }}>
-            <a href={lang === 'en' ? '/en' : '/'}>Open·Parlamento</a> › <span>{c.breadcrumbSelf}</span>
+            <a href={lang === 'en' ? '/en' : '/'}>OpenLegis</a> › <span>{c.breadcrumbSelf}</span>
           </div>
           <header className="doc-h">
             <div className="doc-kicker">{c.kicker}</div>

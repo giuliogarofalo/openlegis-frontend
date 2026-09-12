@@ -2,17 +2,17 @@
 // relazioni tipizzate, flusso dell'agente e piano di sviluppo). Bilingue (/come-funziona ↔ /how-it-works).
 export default {
   lang: 'it', path: '/come-funziona',
-  title: 'Come funziona Open·Parlamento: grafo, relazioni e flusso dell’agente',
-  desc: 'Come funziona Open·Parlamento: l’obiettivo, il knowledge graph in tre livelli, le relazioni tipizzate fra norme e il flusso con cui l’agente recupera, valuta e presenta le fonti. Più la roadmap.',
+  title: 'Come funziona OpenLegis: grafo, relazioni e flusso dell’agente',
+  desc: 'Come funziona OpenLegis: l’obiettivo, il knowledge graph in tre livelli, le relazioni tipizzate fra norme e il flusso con cui l’agente recupera, valuta e presenta le fonti. Più la roadmap.',
   keywords: 'come funziona open parlamento, knowledge graph giuridico, relazioni tra norme, agente AI legge, RAG legale, citazioni verbatim, ELI CELEX, roadmap, iter parlamentare',
   kicker: 'metodo · obiettivo · roadmap',
-  h1: 'Come funziona Open·Parlamento',
-  lead: 'Open·Parlamento non è un chatbot legale «fisso»: è un agente che risponde unendo la legge e i dati pubblici, citando sempre la fonte. Qui spiego l’obiettivo, come è costruito il grafo, come l’agente recupera e valuta le informazioni, e dove sta andando il progetto.',
+  h1: 'Come funziona OpenLegis',
+  lead: 'OpenLegis non è un chatbot legale «fisso»: è un agente che risponde unendo la legge e i dati pubblici, citando sempre la fonte. Qui spiego l’obiettivo, come è costruito il grafo, come l’agente recupera e valuta le informazioni, e dove sta andando il progetto.',
 
   // 1. Obiettivo / visione
   goalH: 'L’obiettivo',
   goalP1: 'Rendere lo Stato interrogabile da chiunque — non solo da giuristi e addetti ai lavori — con risposte tracciabili fino alla fonte ufficiale.',
-  goalP2: 'C’è un fossato che oggi nessuno colma: chi ha i dati pubblici non ha la legge (non sa dirti se una cosa è legittima o costituzionale); i bot legali hanno la legge ma non i dati, e spesso allucinano senza citazioni reali. Open·Parlamento unisce i due mondi — «legge ↔ dati» — in un unico grafo navigabile.',
+  goalP2: 'C’è un fossato che oggi nessuno colma: chi ha i dati pubblici non ha la legge (non sa dirti se una cosa è legittima o costituzionale); i bot legali hanno la legge ma non i dati, e spesso allucinano senza citazioni reali. OpenLegis unisce i due mondi — «legge ↔ dati» — in un unico grafo navigabile.',
   goalCards: [
     ['§', 'Fonti reali e citabili', 'Ogni affermazione giuridica risolve a un articolo con identificativo stabile: ELI per l’Italia, CELEX per l’UE. Mai parafrasato.'],
     ['⚖', 'Rifiuto onesto', 'Se non c’è una fonte, l’agente lo dichiara e non inventa («refuse-on-no-source»).'],

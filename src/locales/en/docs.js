@@ -26,7 +26,7 @@ export default {
     nome: 'Giulio',
     ruolo: 'Founder & developer — solo, for now',
     bio: [
-      'I build Open·Parlamento on my own: a large project, born from the idea that the Italian State should be queryable by anyone, not just by insiders.',
+      'I build OpenLegis on my own: a large project, born from the idea that the Italian State should be queryable by anyone, not just by insiders.',
       'I come from the world of software and data. I care about the intersection of law, public data and trustworthy AI — tools that cite the source instead of making it up.',
     ],
   },
@@ -44,18 +44,18 @@ export default {
 
   // Per-section meta-description (≤160 chars) for SEO/GEO.
   sectionDesc: {
-    progetto: 'What Open·Parlamento is and why: an agent uniting law and public data, with answers traceable to the official source (ELI/CELEX).',
+    progetto: 'What OpenLegis is and why: an agent uniting law and public data, with answers traceable to the official source (ELI/CELEX).',
     'come-funziona': 'How the agent works: it picks the right tools — law, parliamentary process, amendments, data, EU law — and synthesises answers that cite their sources.',
     grafo: 'The knowledge graph in three layers: verbatim text of the statute, authoritative relations from Normattiva (Akoma Ntoso) and an explanatory wiki.',
     dati: 'The sources: Italian and EU law, parliamentary process, case law (Constitutional Court, Cassation, CJEU) and open data — all official and open.',
-    connettori: 'Open·Parlamento’s connectors: a few open standards (CKAN, SPARQL, Akoma Ntoso) open hundreds of portals and the entire body of Italian law.',
+    connettori: 'OpenLegis’s connectors: a few open standards (CKAN, SPARQL, Akoma Ntoso) open hundreds of portals and the entire body of Italian law.',
     collegati: 'The ecosystem it stands on: Normattiva, dati.camera.it, dati.senato.it, EUR-Lex, data.europa.eu, LightRAG.',
-    chi: 'Who is behind Open·Parlamento: Giulio, founder and developer. A tool that cites the source instead of replacing it.',
-    collabora: 'How to contribute to Open·Parlamento: code, sources and connectors, feedback, word of mouth. An open, independent project.',
+    chi: 'Who is behind OpenLegis: Giulio, founder and developer. A tool that cites the source instead of replacing it.',
+    collabora: 'How to contribute to OpenLegis: code, sources and connectors, feedback, word of mouth. An open, independent project.',
   },
 
   // Shared UI labels
-  breadcrumbHome: 'Open·Parlamento',
+  breadcrumbHome: 'OpenLegis',
   breadcrumbDocs: 'Documentation',
   inLanguage: 'en-US',
   authorName: 'Giulio Garofalo',
@@ -66,11 +66,11 @@ export default {
   progetto: {
     kicker: 'the project',
     h1: 'Query the Italian State, with the sources in hand.',
-    lead: '<0>Open·Parlamento</0> is an agent that answers by uniting <0>LAW</0> and <0>DATA</0>: the rule — the Italian Constitution, the codes, decrees, EU law — on a <0>navigable knowledge graph</0> with verbatim citations, woven together with <0>real public data</0> drawn from open-data portals.',
+    lead: '<0>OpenLegis</0> is an agent that answers by uniting <0>LAW</0> and <0>DATA</0>: the rule — the Italian Constitution, the codes, decrees, EU law — on a <0>navigable knowledge graph</0> with verbatim citations, woven together with <0>real public data</0> drawn from open-data portals.',
     p1: 'It answers not only “what does the law say”, but questions that today take hours of work: <1>what changed, who changed it, where that bill stands, which data concern this rule.</1>',
     cards: [
       ['§', 'The goal', 'To make the Italian State <0>queryable by anyone</0> — not just lawyers and insiders — with answers traceable to the official source.'],
-      ['⚖', 'The moat', 'Those who have the <0>data</0> do not have the <0>law</0>; legal bots have the law but not the data. Open·Parlamento unites the two worlds in a single graph.'],
+      ['⚖', 'The moat', 'Those who have the <0>data</0> do not have the <0>law</0>; legal bots have the law but not the data. OpenLegis unites the two worlds in a single graph.'],
       ['↯', 'The multiplier', 'A few <0>standard connectors</0> (CKAN, SPARQL, Akoma Ntoso) open hundreds of portals and the entire body of law, with no fragile scraping.'],
     ],
     principiH: 'Principles',
@@ -132,7 +132,7 @@ export default {
 
   dati: {
     kicker: 'data & sources',
-    h1: 'What Open·Parlamento analyses.',
+    h1: 'What OpenLegis analyses.',
     lead: 'All <0>official, open</0> sources. No fragile scraping where an API or a standard dump exists.',
     thDomain: 'Domain',
     thWhat: 'What',
@@ -188,7 +188,7 @@ export default {
       '<0>Broken links and hidden limits, even where the API exists.</0> On the European open-data portal the links to datasets arrived <0>truncated</0> (an «identifier» field returned as a list) and we had to reconstruct them. ISTAT’s statistics API at first did not respond at all, then came back but <0>limited to 5 requests per minute</0>.',
       '<0>Abandoned civic projects.</0> Excellent initiatives now stalled: <0>municipal budgets</0> updated only up to 2021/22, the <0>Open Municipio</0> platform with no updates since 2017. Valuable data slowly becoming unusable.',
     ],
-    stateP2: 'It is not a technical detail: it is the reason data that <1>should</1> belong to everyone remains, in practice, accessible only to those with the time and skills to «tame» it. <0>This is the work Open·Parlamento does for you</0>: a layer that makes queryable sources that, on their own, are not — always citing the original.',
+    stateP2: 'It is not a technical detail: it is the reason data that <1>should</1> belong to everyone remains, in practice, accessible only to those with the time and skills to «tame» it. <0>This is the work OpenLegis does for you</0>: a layer that makes queryable sources that, on their own, are not — always citing the original.',
   },
 
   connettori: {
@@ -222,21 +222,21 @@ export default {
       ['Parliamentary Akoma Ntoso', 'Texts of amendments and preparatory works'],
     ],
     notePre: 'Do you have a source or a portal I should connect? ',
-    noteSubject: 'Open·Parlamento — connector proposal',
+    noteSubject: 'OpenLegis — connector proposal',
     noteCta: 'Write to me →',
   },
 
   collegati: {
     kicker: 'related projects',
     h1: 'My projects and the ecosystem.',
-    lead: 'Open·Parlamento is reuse-first: my open-source projects stand on open third-party projects and official sources.',
+    lead: 'OpenLegis is reuse-first: my open-source projects stand on open third-party projects and official sources.',
     soonTag: 'public soon',
     mineH: 'My projects & libraries',
     mine: [
-      ['Open·Parlamento — code', 'The project repository: agent, connectors, stack and deploy. Open source.', 'github'],
+      ['OpenLegis — code', 'The project repository: agent, connectors, stack and deploy. Open source.', 'github'],
       ['republicMCP — repo', 'The origin. The MCP connector that exposes Camera and Senato as agentic tools (SPARQL), with the OCD/OSR ontologies documented. Open source.', 'republicMCP'],
       ['republic-mcp — npm', 'The published package: «npx republic-mcp», usable from Claude Desktop, Cursor and other MCP clients.', 'republicMCPnpm'],
-      ['open-parlamento-mcp — PyPI', 'The Open·Parlamento MCP server (cerca_legge, data, Camera/Senato process, Normattiva amendments): «pip install open-parlamento-mcp».', 'mcpPypi'],
+      ['openlegis-mcp — PyPI', 'The OpenLegis MCP server (cerca_legge, data, Camera/Senato process, Normattiva amendments): «pip install openlegis-mcp».', 'mcpPypi'],
     ],
     mineCta: 'All projects & libraries →',
     minePath: '/progetti',
@@ -267,8 +267,8 @@ export default {
     // hrefType: 'github' uses LINKS.github; 'mail:<subject>' composes a mailto.
     ways: [
       ['✎', 'Code', 'Open an issue or a pull request on RepublicMCP: connectors, SPARQL queries, ontology coverage.', 'github', 'GitHub'],
-      ['◇', 'Sources & connectors', 'Report open-data portals, datasets or legal sources to connect.', 'mail:Open·Parlamento — source/connector', 'Write to me'],
-      ['✉', 'Feedback', 'Tried the app? Tell me what works and what doesn’t.', 'mail:Open·Parlamento — feedback', 'Feedback'],
+      ['◇', 'Sources & connectors', 'Report open-data portals, datasets or legal sources to connect.', 'mail:OpenLegis — source/connector', 'Write to me'],
+      ['✉', 'Feedback', 'Tried the app? Tell me what works and what doesn’t.', 'mail:OpenLegis — feedback', 'Feedback'],
       ['★', 'Support', 'The project is open and independent. Spreading the word is already a big help.', 'github', 'Give it a star'],
     ],
     notePre: 'Direct contact: ',

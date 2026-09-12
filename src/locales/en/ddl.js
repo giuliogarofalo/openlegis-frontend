@@ -7,7 +7,7 @@ export default {
   keywords: 'italian bill, senato ddl, legislative process, constitutional compliance, constitutional court case law',
   headline: 'Bills: comparison table and compliance',
 
-  breadcrumbHome: 'Open·Parlamento',
+  breadcrumbHome: 'OpenLegis',
   breadcrumbSelf: 'Bills',
 
   kicker: 'public data · citation by citation',

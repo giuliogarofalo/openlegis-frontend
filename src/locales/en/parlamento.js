@@ -10,7 +10,7 @@ export default {
   keywords: 'Italian Parliament, Chamber of Deputies, Senate of the Republic, how the Italian Parliament works, bicameralism, parliamentary groups, parliamentary votes, legislative process',
   headline: 'The Italian Parliament: Chamber, Senate and how it works',
 
-  breadcrumbHome: 'Open·Parlamento',
+  breadcrumbHome: 'OpenLegis',
   breadcrumbSelf: 'Parliament',
 
   faq: [

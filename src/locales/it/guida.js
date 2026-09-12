@@ -12,7 +12,7 @@ export default {
   glossarioLabel: 'Glossario',
   glossarioDesc: ' — ELI, CELEX, MCP server, OSINT legislativo',
   disclaimer: 'Strumento informativo — non è consulenza legale.',
-  crumbHome: 'Open·Parlamento',
+  crumbHome: 'OpenLegis',
   crumbDocs: 'Documentazione',
   crumbGuide: 'Guide',
   crumbGuidaLabel: 'Guida',
@@ -59,7 +59,7 @@ export default {
       ],
       after: [
         [
-          'Su Open·Parlamento puoi vedere cosa un decreto ',
+          'Su OpenLegis puoi vedere cosa un decreto ',
           { text: 'modifica o abroga', ask: 'Cosa modifica il decreto-legge 19 del 2024?' },
           ' (relazioni autoritative da Normattiva) e seguirne lo stato di conversione. Vedi il ',
           { text: 'glossario', href: '/docs/glossario#decreto-legge' },
@@ -84,7 +84,7 @@ export default {
       ],
       after: [
         [
-          'Open·Parlamento usa l’ELL/ELI come ancora di ogni risposta e nelle ',
+          'OpenLegis usa l’ELL/ELI come ancora di ogni risposta e nelle ',
           { text: 'pagine del corpus', href: '/norme' },
           '. Vedi anche ',
           { text: 'CELEX', href: '/docs/glossario#celex' },
@@ -98,14 +98,14 @@ export default {
     'cos-e-un-mcp-server': {
       title: 'Cos’è un MCP server (e come usarlo per la legge)',
       kicker: 'guida · developer',
-      desc: 'Cos’è un MCP server (Model Context Protocol), a cosa serve e come collegare gli MCP server open source di Open·Parlamento a Claude Desktop o Cursor per interrogare legge e Parlamento.',
-      keywords: 'cos\'è un MCP server, Model Context Protocol, MCP server tutorial, open source MCP, republic-mcp, open-parlamento-mcp, Claude Desktop MCP',
+      desc: 'Cos’è un MCP server (Model Context Protocol), a cosa serve e come collegare gli MCP server open source di OpenLegis a Claude Desktop o Cursor per interrogare legge e Parlamento.',
+      keywords: 'cos\'è un MCP server, Model Context Protocol, MCP server tutorial, open source MCP, republic-mcp, openlegis-mcp, Claude Desktop MCP',
       lead: 'Un MCP server espone strumenti (funzioni) che un assistente AI può chiamare per leggere fonti reali invece di inventarle. È il modo standard per dare a un modello accesso a dati e azioni.',
       steps: [
         { name: 'Il Model Context Protocol', text: 'MCP è lo standard aperto che collega un client AI (Claude Desktop, Cursor…) a “server” che offrono tool, risorse e prompt.' },
         { name: 'Cosa fa un MCP server', text: 'Dichiara una lista di funzioni con i loro parametri; quando l’AI le invoca, il server esegue (es. cerca una norma) e restituisce dati strutturati e citabili.' },
-        { name: 'Gli MCP server di Open·Parlamento', text: 'republic-mcp (npm) per Camera, Senato e OpenPolis; open-parlamento-mcp (PyPI) per legge, diritto UE, giurisprudenza, statistiche e open data. Entrambi open source (MIT).' },
-        { name: 'Collegarli', text: 'Aggiungi i server alla configurazione del client (mcpServers): npx -y republic-mcp; pip install open-parlamento-mcp e comando open-parlamento-mcp.' },
+        { name: 'Gli MCP server di OpenLegis', text: 'republic-mcp (npm) per Camera, Senato e OpenPolis; openlegis-mcp (PyPI) per legge, diritto UE, giurisprudenza, statistiche e open data. Entrambi open source (MIT).' },
+        { name: 'Collegarli', text: 'Aggiungi i server alla configurazione del client (mcpServers): npx -y republic-mcp; pip install openlegis-mcp e comando openlegis-mcp.' },
       ],
       after: [
         [
@@ -117,7 +117,7 @@ export default {
         ],
       ],
       faq: [
-        { q: 'Gli MCP server di Open·Parlamento sono gratuiti e open source?', a: 'Sì: codice MIT su GitHub, pacchetti su npm e PyPI, dati da fonti pubbliche e aperte.' },
+        { q: 'Gli MCP server di OpenLegis sono gratuiti e open source?', a: 'Sì: codice MIT su GitHub, pacchetti su npm e PyPI, dati da fonti pubbliche e aperte.' },
         { q: 'Con quali client funzionano?', a: 'Con qualsiasi client compatibile con il Model Context Protocol, come Claude Desktop e Cursor.' },
       ],
     },
@@ -136,7 +136,7 @@ export default {
       ],
       after: [
         [
-          'Su Open·Parlamento ogni norma riporta tipo e identificativo (ELI), e le relazioni di modifica mostrano come le fonti si intrecciano. Vedi ',
+          'Su OpenLegis ogni norma riporta tipo e identificativo (ELI), e le relazioni di modifica mostrano come le fonti si intrecciano. Vedi ',
           { text: 'la Costituzione', href: '/costituzione' },
           ' e i ',
           { text: 'codici', href: '/codici' },
@@ -161,7 +161,7 @@ export default {
       ],
       after: [
         [
-          'Open·Parlamento riusa Normattiva per il ',
+          'OpenLegis riusa Normattiva per il ',
           { text: 'corpus delle norme', href: '/norme' },
           ' e per le relazioni di modifica (cosa modifica / chi ha modificato). Vedi anche ',
           { text: 'come citare con l’ELI', href: '/docs/guida/citare-una-norma-con-eli' },
@@ -182,7 +182,7 @@ export default {
       steps: [
         { name: 'Le serie', text: 'La Serie Generale contiene leggi, decreti-legge, decreti legislativi, DPR e altri atti; esistono poi serie speciali (Corte Costituzionale, UE, Regioni, Concorsi, Contratti).' },
         { name: 'Pubblicazione ed entrata in vigore', text: 'Dopo la pubblicazione, una norma entra in vigore di norma dopo 15 giorni (vacatio legis), salvo diversa indicazione.' },
-        { name: 'Aggiornamenti', text: 'La Serie Generale è aggiornata nei giorni feriali; Open·Parlamento ne segue le novità (feed RSS) per tenere il corpus aggiornato.' },
+        { name: 'Aggiornamenti', text: 'La Serie Generale è aggiornata nei giorni feriali; OpenLegis ne segue le novità (feed RSS) per tenere il corpus aggiornato.' },
       ],
       after: [
         [
@@ -211,7 +211,7 @@ export default {
       ],
       after: [
         [
-          'Su Open·Parlamento puoi vedere se una norma è stata dichiarata incostituzionale o se è ',
+          'Su OpenLegis puoi vedere se una norma è stata dichiarata incostituzionale o se è ',
           { text: 'attualmente impugnata', raw: '/app?q=L%27art.%204-bis%20ord.%20penit.%20%C3%A8%20attualmente%20impugnato%20davanti%20alla%20Consulta%3F' },
           ' (casi pendenti). Vedi la ',
           { text: 'Costituzione', href: '/costituzione' },

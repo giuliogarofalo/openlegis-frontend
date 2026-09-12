@@ -6,14 +6,14 @@
 // repo: tenere i due allineati.
 export default {
   lang: 'it', path: '/manifesto',
-  title: 'Manifesto · Open·Parlamento',
-  desc: 'Il manifesto di Open·Parlamento, in prima persona: capire le leggi non può restare un privilegio per pochi. Perché ho costruito un grafo delle relazioni tra le norme per mostrare dove il sistema non torna, perché lo apro in open source, e i paletti che vengono prima di tutto.',
+  title: 'Manifesto · OpenLegis',
+  desc: 'Il manifesto di OpenLegis, in prima persona: capire le leggi non può restare un privilegio per pochi. Perché ho costruito un grafo delle relazioni tra le norme per mostrare dove il sistema non torna, perché lo apro in open source, e i paletti che vengono prima di tutto.',
   keywords: 'manifesto open parlamento, knowledge graph diritto italiano, relazioni tra norme, incongruenze leggi, cavilli, lacune normative, accountability, open data pubblici, infrastruttura aperta, MCP, open source, fonti citabili ELI CELEX Akoma Ntoso',
   kicker: 'manifesto · idea · obiettivi',
   h1: 'Manifesto',
   standfirst: 'Le leggi le scrivono in pubblico, ma capirle è un mestiere per pochi. È questo privilegio che voglio rompere.',
   lede: [
-    'Un Paese si governa con le sue leggi, e quasi nessuno riesce davvero a leggerle. Non perché siano segrete — sono tutte pubbliche — ma perché sono troppe, si rimandano l’una con l’altra, si modificano, si contraddicono, e nessuno tiene insieme il quadro. Chi ha i mezzi per ricostruirlo — i grandi studi, le lobby, chi le leggi le scrive — quel quadro ce l’ha. Tutti gli altri no. Open·Parlamento nasce per ribaltare questa asimmetria.',
+    'Un Paese si governa con le sue leggi, e quasi nessuno riesce davvero a leggerle. Non perché siano segrete — sono tutte pubbliche — ma perché sono troppe, si rimandano l’una con l’altra, si modificano, si contraddicono, e nessuno tiene insieme il quadro. Chi ha i mezzi per ricostruirlo — i grandi studi, le lobby, chi le leggi le scrive — quel quadro ce l’ha. Tutti gli altri no. OpenLegis nasce per ribaltare questa asimmetria.',
     'L’ho cominciato più di un anno fa, prima che lo facessero in tanti — e l’ho costruito al contrario di tutti. Non un chatbot che ti dà una risposta da prendere sulla fiducia: una mappa delle relazioni tra le norme, fatta per mostrarti dove il sistema non torna. Il sito con i nodi che si muovono è solo la porta. Il prodotto è il motore che c’è sotto.',
   ],
   sections: [

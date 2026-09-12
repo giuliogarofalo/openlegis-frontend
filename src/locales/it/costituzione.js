@@ -10,7 +10,7 @@ export default {
   appPath: '/app',
   inLanguage: 'it',
   title: 'Costituzione italiana — struttura, articoli e principi',
-  desc: 'La Costituzione della Repubblica Italiana: struttura (principi fondamentali, diritti e doveri, ordinamento), articoli chiave e come interrogarne il testo con fonti reali su Open·Parlamento.',
+  desc: 'La Costituzione della Repubblica Italiana: struttura (principi fondamentali, diritti e doveri, ordinamento), articoli chiave e come interrogarne il testo con fonti reali su OpenLegis.',
   keywords: 'Costituzione italiana, costituzione della repubblica, principi fondamentali, articolo 1 costituzione, articolo 3 costituzione, articolo 21 costituzione, diritti e doveri, ordinamento della repubblica',
 
   legislationName: 'Costituzione della Repubblica Italiana',
@@ -19,7 +19,7 @@ export default {
   // Domanda interrogabile per ogni articolo: {n} viene sostituito dal numero.
   askArt: (n) => `Cosa stabilisce l'articolo ${n} della Costituzione italiana? Cita il testo.`,
 
-  breadcrumbHome: 'Open·Parlamento',
+  breadcrumbHome: 'OpenLegis',
   breadcrumbSelf: 'Costituzione',
 
   faq: [

@@ -28,7 +28,7 @@ export default function Landing() {
   const faqLd = faqPage(c.faq.map(([q, a]) => ({ q, a })))
 
   const crumbs = breadcrumb(
-    lang === 'en' ? [['Open·Parlamento', '/en']] : [['Open·Parlamento', '/']]
+    lang === 'en' ? [['OpenLegis', '/en']] : [['OpenLegis', '/']]
   )
 
   return (

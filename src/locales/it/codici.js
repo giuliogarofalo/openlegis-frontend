@@ -3,13 +3,13 @@
 // Gli slug e gli ID (sigle, anni, numeri d'articolo) restano canonici e non si traducono.
 export default {
   // Etichette UI condivise (indice + pagine per-codice)
-  breadcrumbHome: 'Open·Parlamento',
+  breadcrumbHome: 'OpenLegis',
   breadcrumbCodici: 'Codici',
   inLanguage: 'it',
 
   // Indice /codici
   index: {
-    collectionName: 'I codici italiani — Open·Parlamento',
+    collectionName: 'I codici italiani — OpenLegis',
     collectionDesc: 'I principali codici dell’ordinamento italiano: penale, civile, procedura, strada, consumo, assicurazioni.',
     seoTitle: 'I codici italiani — penale, civile, strada e altri',
     seoDesc: 'I principali codici dell’ordinamento italiano (penale, civile, procedura penale e civile, strada, consumo, assicurazioni): struttura, articoli chiave e fonti reali.',

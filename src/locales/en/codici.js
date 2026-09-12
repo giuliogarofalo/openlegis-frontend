@@ -4,13 +4,13 @@
 // The code NAMES are canonical Italian legal instruments: kept in Italian, glossed in English.
 export default {
   // Shared UI labels (index + per-code pages)
-  breadcrumbHome: 'Open·Parlamento',
+  breadcrumbHome: 'OpenLegis',
   breadcrumbCodici: 'Codes',
   inLanguage: 'en',
 
   // Index /en/codici
   index: {
-    collectionName: 'The Italian codes — Open·Parlamento',
+    collectionName: 'The Italian codes — OpenLegis',
     collectionDesc: 'The main codes of the Italian legal system: criminal, civil, procedure, highway, consumer, insurance.',
     seoTitle: 'The Italian codes — criminal, civil, highway and more',
     seoDesc: 'The main codes of the Italian legal system (criminal, civil, criminal and civil procedure, highway, consumer, insurance): structure, key articles and real sources.',

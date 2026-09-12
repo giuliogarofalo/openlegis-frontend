@@ -1,8 +1,8 @@
 // Tool — contenuto editoriale italiano. Importato direttamente da Tool.jsx.
 export default {
   // Email di feedback precompilata (CTA fluttuante).
-  feedbackSubject: 'Open·Parlamento — il mio feedback',
-  feedbackBody: 'Ciao!\n\nHo provato Open·Parlamento e volevo dirti che…\n\n',
+  feedbackSubject: 'OpenLegis — il mio feedback',
+  feedbackBody: 'Ciao!\n\nHo provato OpenLegis e volevo dirti che…\n\n',
 
   // CTA feedback.
   feedbackTitle: 'Scrivimi cosa ne pensi',

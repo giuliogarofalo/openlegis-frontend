@@ -9,7 +9,7 @@ import enC from '../locales/en/sostieni.js'
 
 const GITHUB = 'https://github.com/giuliogarofalo/RepublicMCP' // repo pubblico (l'origine) — il monorepo del progetto è privato
 const NPM = 'https://www.npmjs.com/package/republic-mcp'
-const PYPI = 'https://pypi.org/project/open-parlamento-mcp/'
+const PYPI = 'https://pypi.org/project/openlegis-mcp/'
 const MAIL = 'open-parlament@proton.me'
 
 export default function Sostieni() {
@@ -24,7 +24,7 @@ export default function Sostieni() {
       url: 'https://openlegis.it' + t.path, isPartOf: { '@id': 'https://openlegis.it/#website' },
     },
     faqPage(t.faq),
-    breadcrumb(lang === 'en' ? [['Open·Parlamento', '/en'], ['Support', t.path]] : [['Open·Parlamento', '/'], ['Sostieni', t.path]]),
+    breadcrumb(lang === 'en' ? [['OpenLegis', '/en'], ['Support', t.path]] : [['OpenLegis', '/'], ['Sostieni', t.path]]),
   ]
   return (
     <>
@@ -34,7 +34,7 @@ export default function Sostieni() {
       <main className="docs-content">
         <article className="docs-article">
           <div className="crumbs-mini" style={{ fontFamily: 'var(--font-mono)', fontSize: 11, color: 'var(--muted)', marginBottom: 14 }}>
-            <a href={lang === 'en' ? '/en' : '/'}>Open·Parlamento</a> › <span>{lang === 'en' ? 'Support' : 'Sostieni'}</span>
+            <a href={lang === 'en' ? '/en' : '/'}>OpenLegis</a> › <span>{lang === 'en' ? 'Support' : 'Sostieni'}</span>
           </div>
           <header className="doc-h"><div className="doc-kicker">{t.kicker}</div><h1>{t.h1}</h1></header>
           <p className="lead">{t.lead}</p>
@@ -50,11 +50,11 @@ export default function Sostieni() {
           <p>
             <a href={GITHUB} target="_blank" rel="noopener">{t.ctaRepo}</a> ·{' '}
             <a href={NPM} target="_blank" rel="noopener">republic-mcp · npm</a> ·{' '}
-            <a href={PYPI} target="_blank" rel="noopener">open-parlamento-mcp · PyPI</a> ·{' '}
+            <a href={PYPI} target="_blank" rel="noopener">openlegis-mcp · PyPI</a> ·{' '}
             <a href={lang === 'en' ? '/en/api' : '/docs/api'}>{lang === 'en' ? 'public API' : 'API pubblica'}</a>
           </p>
           <p>
-            <a href={`mailto:${MAIL}?subject=${encodeURIComponent(lang === 'en' ? 'Open·Parlamento — support/collaboration' : 'Open·Parlamento — sostegno/collaborazione')}`}>
+            <a href={`mailto:${MAIL}?subject=${encodeURIComponent(lang === 'en' ? 'OpenLegis — support/collaboration' : 'OpenLegis — sostegno/collaborazione')}`}>
               {lang === 'en' ? 'Get in touch ↗' : 'Scrivimi ↗'}
             </a>
           </p>

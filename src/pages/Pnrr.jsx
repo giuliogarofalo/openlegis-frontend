@@ -99,7 +99,7 @@ export default function Pnrr() {
       <main className="docs-content">
         <article className="docs-article">
           <div className="crumbs-mini" style={{ fontFamily: 'var(--font-mono)', fontSize: 11, color: 'var(--muted)', marginBottom: 14 }}>
-            <a href={homePath}>Open·Parlamento</a> › <span>{c.breadcrumbSelf}</span>
+            <a href={homePath}>OpenLegis</a> › <span>{c.breadcrumbSelf}</span>
           </div>
           <header className="doc-h"><div className="doc-kicker">{c.kicker}</div><h1>{c.h1}</h1></header>
           <p className="lead">{c.lead}</p>

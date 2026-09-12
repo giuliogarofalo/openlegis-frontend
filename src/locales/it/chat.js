@@ -51,7 +51,7 @@ export default {
 
   // Etichette di ruolo dei messaggi.
   roleUser: 'La tua domanda',
-  roleAgent: 'Open Parlamento',
+  roleAgent: 'OpenLegis',
 
   // Stato "sto pensando".
   thinkingStream: 'sto consultando le fonti…',

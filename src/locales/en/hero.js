@@ -4,7 +4,7 @@ export default {
   eyebrow: 'law · data · living graph',
   titleLine1: 'Query the Italian State.',
   titleLine2: 'With the sources in hand.',
-  sub: '<0>Open·Parlamento</0> answers questions on Italian and EU law — the Italian Constitution, the codes, decrees, EU law — on a <0>navigable graph</0>, weaving in the <0>real public data</0>. Every answer cites its source; if there is none, it says so.',
+  sub: '<0>OpenLegis</0> answers questions on Italian and EU law — the Italian Constitution, the codes, decrees, EU law — on a <0>navigable graph</0>, weaving in the <0>real public data</0>. Every answer cites its source; if there is none, it says so.',
   caps: [
     ['§', 'Ask the law', 'What a rule actually says, with the exact, citable article.'],
     ['⚖', 'Track a bill', 'Where a bill stands, who signed it, how the Italian Parliament votes.'],

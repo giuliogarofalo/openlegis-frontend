@@ -8,7 +8,7 @@ export default {
   keywords: 'parlamentari attivi, chi firma più leggi, gruppi parlamentari XIX legislatura, primi firmatari camera senato, attività legislativa',
   headline: 'Parlamentari: chi firma più atti',
 
-  breadcrumbHome: 'Open·Parlamento',
+  breadcrumbHome: 'OpenLegis',
   breadcrumbSelf: 'Parlamentari',
 
   kicker: 'dati pubblici · OSINT',

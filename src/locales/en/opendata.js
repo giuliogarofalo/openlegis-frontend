@@ -5,7 +5,7 @@ export default {
   desc: 'Open, citable data on Italian law: per-article legal corpus, authoritative amendment relations (Normattiva) and the legal knowledge graph. For research, data journalism and legislative OSINT.',
   kicker: 'open data · legislative OSINT',
   h1: 'Open data for Italian law',
-  lead: 'Open·Parlamento is built on public, open and citable sources. Here is the data you can reuse: the legal corpus, the amendment relations and the legal knowledge graph.',
+  lead: 'OpenLegis is built on public, open and citable sources. Here is the data you can reuse: the legal corpus, the amendment relations and the legal knowledge graph.',
   ds: 'The datasets',
   items: [
     ['Relations graph', 'Amendment/repeal/replacement relations between statutes and articles (from Normattiva, confidence 1.0), in JSON.', 'JSON'],
@@ -37,7 +37,7 @@ export default {
   relatedH: 'See also',
   faq: [
     { q: 'What license is the data under?', a: 'Sources are public and open: Normattiva is CC BY 4.0; other portals follow their respective open licenses. Always cite the official source.' },
-    { q: 'How do I access the data programmatically?', a: 'Through the open-source MCP servers (republic-mcp on npm, open-parlamento-mcp on PyPI) or directly from the sources (Chamber/Senate SPARQL, EUR-Lex, Eurostat, CKAN).' },
+    { q: 'How do I access the data programmatically?', a: 'Through the open-source MCP servers (republic-mcp on npm, openlegis-mcp on PyPI) or directly from the sources (Chamber/Senate SPARQL, EUR-Lex, Eurostat, CKAN).' },
   ],
   disclaimer: 'Informational tool — not legal advice.',
 }

@@ -21,7 +21,7 @@ export default function Manifesto() {
       url: SITE + t.path, mainEntityOfPage: SITE + t.path,
       author: { '@type': 'Person', name: 'Giulio Garofalo' }, publisher: { '@id': SITE + '/#org' },
     },
-    breadcrumb([['Open·Parlamento', home], [t.h1, t.path]]),
+    breadcrumb([['OpenLegis', home], [t.h1, t.path]]),
   ]
 
   return (
@@ -31,7 +31,7 @@ export default function Manifesto() {
       <main className="docs-content">
         <article className="docs-article manifesto">
           <div className="crumbs-mini" style={{ fontFamily: 'var(--font-mono)', fontSize: 11, color: 'var(--muted)', marginBottom: 14 }}>
-            <a href={home}>Open·Parlamento</a> › <span>{t.h1}</span>
+            <a href={home}>OpenLegis</a> › <span>{t.h1}</span>
           </div>
           <header className="doc-h">
             <div className="doc-kicker">{t.kicker}</div>

@@ -32,7 +32,7 @@ export default function Glossario() {
       <main className="docs-content">
         <article className="docs-article">
           <div className="crumbs-mini" style={{ fontFamily: 'var(--font-mono)', fontSize: 11, color: 'var(--muted)', marginBottom: 14 }}>
-            <a href={homePath}>Open·Parlamento</a> › <a href={docsPath}>{c.breadcrumbDocs}</a> › <span>{c.breadcrumbSelf}</span>
+            <a href={homePath}>OpenLegis</a> › <a href={docsPath}>{c.breadcrumbDocs}</a> › <span>{c.breadcrumbSelf}</span>
           </div>
           <header className="doc-h">
             <div className="doc-kicker">{c.kicker}</div>

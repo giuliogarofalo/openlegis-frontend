@@ -5,14 +5,14 @@
 // /en/manifesto). Canonical source is MANIFESTO.md in the repo root: keep the two aligned.
 export default {
   lang: 'en', path: '/en/manifesto',
-  title: 'Manifesto · Open·Parlamento',
-  desc: 'The Open·Parlamento manifesto, first person: understanding the law can’t stay a privilege for the few. Why I built a graph of the relations between norms to show where the system doesn’t add up, why I open it in open source, and the limits that come before everything.',
+  title: 'Manifesto · OpenLegis',
+  desc: 'The OpenLegis manifesto, first person: understanding the law can’t stay a privilege for the few. Why I built a graph of the relations between norms to show where the system doesn’t add up, why I open it in open source, and the limits that come before everything.',
   keywords: 'open parlamento manifesto, italian law knowledge graph, relations between norms, legal inconsistencies, loopholes, regulatory gaps, accountability, public open data, open infrastructure, MCP, open source, citable sources ELI CELEX Akoma Ntoso',
   kicker: 'manifesto · idea · objectives',
   h1: 'Manifesto',
   standfirst: 'Laws are written in public, but understanding them is a trade for the few. That’s the privilege I want to break.',
   lede: [
-    'A country is governed by its laws, and almost no one can actually read them. Not because they’re secret — they’re all public — but because there are too many, they refer to one another, they amend and contradict each other, and no one holds the whole picture together. Those with the means to reconstruct it — the big firms, the lobbies, the people who write the laws — they have that picture. Everyone else doesn’t. Open·Parlamento exists to overturn that asymmetry.',
+    'A country is governed by its laws, and almost no one can actually read them. Not because they’re secret — they’re all public — but because there are too many, they refer to one another, they amend and contradict each other, and no one holds the whole picture together. Those with the means to reconstruct it — the big firms, the lobbies, the people who write the laws — they have that picture. Everyone else doesn’t. OpenLegis exists to overturn that asymmetry.',
     'I started it more than a year ago, before many others did — and I built it the opposite way to everyone. Not a chatbot that hands you an answer to take on trust: a map of the relations between norms, built to show you where the system doesn’t add up. The site with the moving nodes is just the door. The product is the engine underneath.',
   ],
   sections: [
