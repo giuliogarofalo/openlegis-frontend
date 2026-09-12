@@ -16,6 +16,22 @@
   command = "npm run build"
   publish = "dist"
 
+# Pagine del corpus: sono dist/norme/.../index.html (directory), ma canonical/sitemap
+# usano l'URL SENZA trailing slash. Senza questa regola Netlify farebbe da sé un 301
+# "aggiungi slash" per servire l'index della cartella — esattamente il redirect che il
+# vecchio nginx (try_files) evitava. Qui serviamo il contenuto a status 200, niente redirect.
+[[redirects]]
+  from = "/norme"
+  to = "/norme/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/norme/*"
+  to = "/norme/:splat/index.html"
+  status = 200
+  force = true
+
 [[redirects]]
   from = "/api/*"
   to = "https://open-parlament.xyz/api/:splat"
