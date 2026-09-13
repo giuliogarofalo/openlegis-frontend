@@ -4,7 +4,7 @@
 // per article into webapp/public/norme/**, plus public/sitemap-corpus.xml.
 //
 // Run on the HOST (where norme_out exists) before the Vite build:
-//   CORPUS_SRC=../lightrag-stack/norme_out node scripts/gen-corpus.mjs
+//   CORPUS_SRC=../core/lightrag-stack/norme_out node scripts/gen-corpus.mjs
 // The generated pages live under public/ → Vite copies them to dist/ → nginx serves
 // them as real, crawlable, verbatim legal pages with schema.org Legislation.
 import { readFileSync, readdirSync, writeFileSync, mkdirSync, rmSync, existsSync } from 'node:fs'
@@ -26,7 +26,7 @@ const CORE_BODY_MIN = Number(process.env.CORE_BODY_MIN || 500)
 const here = dirname(fileURLToPath(import.meta.url))
 const SRC = process.env.CORPUS_SRC
   ? (process.env.CORPUS_SRC.startsWith('/') ? process.env.CORPUS_SRC : join(here, '..', process.env.CORPUS_SRC))
-  : join(here, '..', '..', 'lightrag-stack', 'norme_out')
+  : join(here, '..', '..', 'core', 'lightrag-stack', 'norme_out')
 const OUT = join(here, '..', 'public', 'norme')
 
 if (!existsSync(join(SRC, 'manifest.json'))) {
@@ -116,11 +116,11 @@ for (const arr of articlesByNorma.values())
 
 // ── Indice testo verbatim per-articolo → public/norme-text.json (anteprima nei riferimenti) ──
 // Atti (leggi/decreti) vengono da norme_out/texts; i CODICI (Costituzione, c.p.) NON sono lì:
-// si parsano dai sorgenti markdown dell'ingest (lightrag-stack/data/inputs/*.md).
+// si parsano dai sorgenti markdown dell'ingest (core/lightrag-stack/data/inputs/*.md).
 const normeText = {}
 for (const [eli, a] of articleByEli) normeText[eli] = { num: a.num, rubrica: a.rubrica, body: clip(a.body, 1400) }
 const CODES = [['codice_penale.md', 'codice-penale'], ['costituzione.md', 'costituzione']]
-const codesDir = join(here, '..', '..', 'lightrag-stack', 'data', 'inputs')
+const codesDir = join(here, '..', '..', 'core', 'lightrag-stack', 'data', 'inputs')
 for (const [file, slug] of CODES) {
   const fp = join(codesDir, file)
   if (!existsSync(fp)) continue
