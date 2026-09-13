@@ -4,7 +4,7 @@
 //                             if present (Phase 2 corpus), sitemap-corpus.xml
 import { writeFileSync, readdirSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
-import { INDEXABLE, HREFLANG_PAIRS, SITE } from './routes.mjs'
+import { INDEXABLE, HREFLANG_PAIRS, SITE, PRERENDER } from './routes.mjs'
 
 const distDir = fileURLToPath(new URL('../dist/', import.meta.url))
 const today = new Date().toISOString().slice(0, 10)
@@ -47,3 +47,17 @@ ${children.map((c) => `  <sitemap><loc>${SITE}/${c}</loc><lastmod>${today}</last
 `
 writeFileSync(distDir + 'sitemap.xml', index, 'utf8')
 console.log(`✓ sitemap index → ${children.join(', ')} (${INDEXABLE.length} pagine + ${corpusShards.length} shard corpus)`)
+
+// Ogni rotta prerenderizzata (eccetto la home) è scritta su disco come dir/index.html
+// (vedi prerender.mjs::distFile) — senza una regola esplicita, il file-server di Netlify
+// applica di suo un 301 "aggiungi slash finale" per servire l'index della cartella, prima
+// ancora di consultare i redirect non-forzati: stesso bug già visto su /norme (canonical
+// senza slash ↔ URL servito con slash), ma qui su OGNI pagina del sito. Force (200!) fa
+// vincere questa regola sul comportamento di default. Generato qui — non a mano in
+// netlify.toml — così resta sempre sincronizzato con l'elenco reale delle rotte.
+const prettyRedirects = PRERENDER
+  .filter((p) => p !== '/')
+  .map((p) => `${p}  ${p}/index.html  200!`)
+  .join('\n')
+writeFileSync(distDir + '_redirects', prettyRedirects + '\n', { flag: 'a' })
+console.log(`✓ _redirects: ${PRERENDER.length - 1} regole pretty-URL (dir/index.html senza redirect)`)
