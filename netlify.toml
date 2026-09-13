@@ -1,18 +1,19 @@
-# Netlify config per il frontend Open Parlamento (React/Vite).
+# Netlify config per il frontend OpenLegis (React/Vite).
+# Questo file vive alla RADICE del repo openlegis-frontend (= webapp/ dentro OPEN-PA,
+# repo git a sé — niente "base": la radice del repo È già il progetto).
 #
 # Il backend (agent-service, gateway-service, LightRAG, public-api) resta su Hetzner
-# dietro nginx/Caddy (vedi ../Caddyfile, ../webapp/nginx.conf). Questi redirect fanno da
-# reverse-proxy verso l'origine esistente per i path dinamici, così il codice frontend
-# (che chiama /api, /lr, /mcp-tools, /webhooks come path RELATIVI) continua a funzionare
-# invariato anche servito da Netlify. Nessuna modifica lato backend necessaria: Netlify
-# risolve il target come richiesta separata verso open-parlament.xyz (Host header proprio),
-# indipendente dal dominio con cui il browser ha chiamato Netlify.
+# dietro Caddy. Questi redirect fanno da reverse-proxy verso l'origine esistente per i
+# path dinamici, così il codice frontend (che chiama /api, /lr, /mcp-tools, /webhooks
+# come path RELATIVI) continua a funzionare invariato anche servito da Netlify. Nessuna
+# modifica lato backend necessaria: Netlify risolve il target come richiesta separata
+# verso open-parlament.xyz (Host header proprio), indipendente dal dominio con cui il
+# browser ha chiamato Netlify.
 #
 # NB: /api/ask/stream è SSE (streaming) — verificare dopo il primo deploy che il proxy
 # Netlify non bufferizzi la risposta (rischio noto dei redirect-proxy su edge CDN).
 
 [build]
-  base = "webapp"
   command = "npm run build"
   publish = "dist"
 
