@@ -177,12 +177,14 @@ function ComeFunziona({ c }) {
       </div>
 
       <h2>{t.toolsH}</h2>
-      <div className="doc-table">
-        <div className="doc-tr doc-th"><span>{t.thTool}</span><span>{t.thUse}</span><span>{t.thSource}</span></div>
-        {t.tools.map(([tool, d, f]) => (
-          <div className="doc-tr" key={tool}><span className="mono">{tool}</span><span>{d}</span><span className="tag">{f}</span></div>
-        ))}
-      </div>
+      {t.toolsGroups.map(([group, rows]) => (
+        <div className="doc-table" key={group}>
+          <div className="doc-tr doc-th"><span>{group}</span><span>{t.thUse}</span><span>{t.thSource}</span></div>
+          {rows.map(([tool, d, f]) => (
+            <div className="doc-tr" key={tool}><span className="mono">{tool}</span><span>{d}</span><span className="tag">{f}</span></div>
+          ))}
+        </div>
+      ))}
 
       <h2>{t.stackH}</h2>
       <ul className="doc-list">
