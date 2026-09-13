@@ -14,9 +14,12 @@
 # Netlify non bufferizzi la risposta (rischio noto dei redirect-proxy su edge CDN).
 
 [build]
-  # Chromium per lo step di prerender (scripts/prerender.mjs, via Playwright) — il
-  # Dockerfile lo installava esplicitamente con --with-deps, qui serve lo stesso.
-  command = "npx playwright install --with-deps chromium && npm run build"
+  # Chromium per lo step di prerender (scripts/prerender.mjs, via Playwright). NIENTE
+  # --with-deps: l'utente di build Netlify non ha sudo (a differenza del Dockerfile, che
+  # gira da root) — --with-deps prova un apt-get e fallisce con "su: Authentication
+  # failure". Solo il binario del browser: le librerie di sistema nell'immagine Ubuntu
+  # di Netlify sono già sufficienti per Chromium headless.
+  command = "npx playwright install chromium && npm run build"
   publish = "dist"
 
 # Pagine del corpus: sono dist/norme/.../index.html (directory), ma canonical/sitemap
