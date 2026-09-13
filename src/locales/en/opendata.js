@@ -37,7 +37,7 @@ export default {
   relatedH: 'See also',
   faq: [
     { q: 'What license is the data under?', a: 'Sources are public and open: Normattiva is CC BY 4.0; other portals follow their respective open licenses. Always cite the official source.' },
-    { q: 'How do I access the data programmatically?', a: 'Through the open-source MCP servers (republic-mcp on npm, openlegis-mcp on PyPI) or directly from the sources (Chamber/Senate SPARQL, EUR-Lex, Eurostat, CKAN).' },
+    { q: 'How do I access the data programmatically?', a: 'Through the open-source MCP servers (republic-mcp on npm, open-parlamento-mcp on PyPI) or directly from the sources (Chamber/Senate SPARQL, EUR-Lex, Eurostat, CKAN).' },
   ],
   disclaimer: 'Informational tool — not legal advice.',
 }

@@ -8,7 +8,7 @@ export default {
   lang: 'it', path: '/manifesto',
   title: 'Manifesto · OpenLegis',
   desc: 'Il manifesto di OpenLegis, in prima persona: capire le leggi non può restare un privilegio per pochi. Perché ho costruito un grafo delle relazioni tra le norme per mostrare dove il sistema non torna, perché lo apro in open source, e i paletti che vengono prima di tutto.',
-  keywords: 'manifesto open parlamento, knowledge graph diritto italiano, relazioni tra norme, incongruenze leggi, cavilli, lacune normative, accountability, open data pubblici, infrastruttura aperta, MCP, open source, fonti citabili ELI CELEX Akoma Ntoso',
+  keywords: 'manifesto openlegis, knowledge graph diritto italiano, relazioni tra norme, incongruenze leggi, cavilli, lacune normative, accountability, open data pubblici, infrastruttura aperta, MCP, open source, fonti citabili ELI CELEX Akoma Ntoso',
   kicker: 'manifesto · idea · obiettivi',
   h1: 'Manifesto',
   standfirst: 'Le leggi le scrivono in pubblico, ma capirle è un mestiere per pochi. È questo privilegio che voglio rompere.',

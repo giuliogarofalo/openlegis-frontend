@@ -1,4 +1,4 @@
-# Open Parlamento frontend — build statica + nginx (serve + reverse-proxy /lr,/agent)
+# OpenLegis frontend — build statica + nginx (serve + reverse-proxy /lr,/agent)
 # Build su Debian (non alpine): il build esegue il prerender SEO via Playwright,
 # che richiede Chromium e le sue dipendenze di sistema.
 FROM node:20-slim AS build

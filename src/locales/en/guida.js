@@ -100,13 +100,13 @@ export default {
       title: 'What an MCP server is (and how to use it for the law)',
       kicker: 'guide · developer',
       desc: 'What an MCP server (Model Context Protocol) is, what it is for and how to connect OpenLegis’s open-source MCP servers to Claude Desktop or Cursor to query Italian law and Parliament.',
-      keywords: "what is an MCP server, Model Context Protocol, MCP server tutorial, open source MCP, republic-mcp, openlegis-mcp, Claude Desktop MCP",
+      keywords: "what is an MCP server, Model Context Protocol, MCP server tutorial, open source MCP, republic-mcp, open-parlamento-mcp, Claude Desktop MCP",
       lead: 'An MCP server exposes tools (functions) that an AI assistant can call to read real sources instead of making them up. It is the standard way to give a model access to data and actions.',
       steps: [
         { name: 'The Model Context Protocol', text: 'MCP is the open standard that connects an AI client (Claude Desktop, Cursor…) to “servers” offering tools, resources and prompts.' },
         { name: 'What an MCP server does', text: 'It declares a list of functions with their parameters; when the AI invokes them, the server executes (e.g. it looks up a law) and returns structured, citable data.' },
-        { name: 'OpenLegis’s MCP servers', text: 'republic-mcp (npm) for the Chamber of Deputies, the Senate and OpenPolis; openlegis-mcp (PyPI) for law, EU law, case law, statistics and open data. Both open source (MIT).' },
-        { name: 'Connecting them', text: 'Add the servers to the client configuration (mcpServers): npx -y republic-mcp; pip install openlegis-mcp and the openlegis-mcp command.' },
+        { name: 'OpenLegis’s MCP servers', text: 'republic-mcp (npm) for the Chamber of Deputies, the Senate and OpenPolis; open-parlamento-mcp (PyPI) for law, EU law, case law, statistics and open data. Both open source (MIT).' },
+        { name: 'Connecting them', text: 'Add the servers to the client configuration (mcpServers): npx -y republic-mcp; pip install open-parlamento-mcp and the open-parlamento-mcp command.' },
       ],
       after: [
         [

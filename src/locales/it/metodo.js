@@ -4,7 +4,7 @@ export default {
   lang: 'it', path: '/come-funziona',
   title: 'Come funziona OpenLegis: grafo, relazioni e flusso dell’agente',
   desc: 'Come funziona OpenLegis: l’obiettivo, il knowledge graph in tre livelli, le relazioni tipizzate fra norme e il flusso con cui l’agente recupera, valuta e presenta le fonti. Più la roadmap.',
-  keywords: 'come funziona open parlamento, knowledge graph giuridico, relazioni tra norme, agente AI legge, RAG legale, citazioni verbatim, ELI CELEX, roadmap, iter parlamentare',
+  keywords: 'come funziona openlegis, knowledge graph giuridico, relazioni tra norme, agente AI legge, RAG legale, citazioni verbatim, ELI CELEX, roadmap, iter parlamentare',
   kicker: 'metodo · obiettivo · roadmap',
   h1: 'Come funziona OpenLegis',
   lead: 'OpenLegis non è un chatbot legale «fisso»: è un agente che risponde unendo la legge e i dati pubblici, citando sempre la fonte. Qui spiego l’obiettivo, come è costruito il grafo, come l’agente recupera e valuta le informazioni, e dove sta andando il progetto.',

@@ -9,20 +9,20 @@ import enC from '../locales/en/mcp.js'
 // Vedi docs/strategy/SEO.md (Fase 1.1).
 
 const NPM = 'https://www.npmjs.com/package/republic-mcp'
-const PYPI = 'https://pypi.org/project/openlegis-mcp/'
+const PYPI = 'https://pypi.org/project/open-parlamento-mcp/'
 const GITHUB_MCP = 'https://github.com/giuliogarofalo/RepublicMCP'
-const GITHUB_OPMCP = 'https://github.com/giuliogarofalo/openlegis-mcp'
+const GITHUB_OPMCP = 'https://github.com/giuliogarofalo/open-parlamento-mcp'
 
 const CLAUDE_CFG = `{
   "mcpServers": {
     "republic": { "command": "npx", "args": ["-y", "republic-mcp"] },
-    "openlegis": { "command": "openlegis-mcp" }
+    "openlegis": { "command": "open-parlamento-mcp" }
   }
 }`
 
 const TOOLS = [
   ['republic-mcp', 'npm · TypeScript', 'Camera & Senato (SPARQL): atti, iter, votazioni, firmatari + OpenPolis (parlamentari, indice di forza, votazioni, decreti, organi)'],
-  ['openlegis-mcp', 'PyPI · Python', 'Costituzione & codici (LightRAG), modifiche normative (Normattiva), diritto e giurisprudenza UE/Consulta/Cassazione, norme impugnate, statistiche Eurostat, Gazzetta Ufficiale, dati pubblici CKAN'],
+  ['open-parlamento-mcp', 'PyPI · Python', 'Costituzione & codici (LightRAG), modifiche normative (Normattiva), diritto e giurisprudenza UE/Consulta/Cassazione, norme impugnate, statistiche Eurostat, Gazzetta Ufficiale, dati pubblici CKAN'],
 ]
 
 export default function McpServer() {
@@ -45,7 +45,7 @@ export default function McpServer() {
       codeRepository: GITHUB_MCP, programmingLanguage: 'TypeScript', url: NPM,
     }),
     softwareSourceCode({
-      name: 'openlegis-mcp', description: 'MCP server for Italian & EU law, case law, statistics and open data.',
+      name: 'open-parlamento-mcp', description: 'MCP server for Italian & EU law, case law, statistics and open data.',
       codeRepository: GITHUB_OPMCP, programmingLanguage: 'Python', url: PYPI,
     }),
     faqPage(t.faq),
@@ -58,7 +58,7 @@ export default function McpServer() {
     <>
       <Seo path={t.path} title={t.title} description={t.desc} type="article" lang={t.lang}
         alternates={alternates} jsonLd={ld}
-        keywords="MCP server, open source MCP server, Model Context Protocol, Italian law MCP, parliament MCP, republic-mcp, openlegis-mcp, Normattiva, EUR-Lex" />
+        keywords="MCP server, open source MCP server, Model Context Protocol, Italian law MCP, parliament MCP, republic-mcp, open-parlamento-mcp, Normattiva, EUR-Lex" />
       <SiteHeader variant="docs" />
       <main className="docs-content">
         <article className="docs-article">
@@ -86,9 +86,9 @@ export default function McpServer() {
           <pre className="seo-code"><code>{`# republic-mcp (Camera/Senato + OpenPolis)
 npx -y republic-mcp
 
-# openlegis-mcp (legge, UE, giurisprudenza, dati)
-pip install openlegis-mcp
-openlegis-mcp`}</code></pre>
+# open-parlamento-mcp (legge, UE, giurisprudenza, dati)
+pip install open-parlamento-mcp
+open-parlamento-mcp`}</code></pre>
 
           <h2>{t.cfgH}</h2>
           <p>{t.cfgP}</p>
@@ -98,9 +98,9 @@ openlegis-mcp`}</code></pre>
           <p>{t.freeP}</p>
           <p>
             <a href={NPM} target="_blank" rel="noopener">republic-mcp · npm ↗</a> ·{' '}
-            <a href={PYPI} target="_blank" rel="noopener">openlegis-mcp · PyPI ↗</a> ·{' '}
+            <a href={PYPI} target="_blank" rel="noopener">open-parlamento-mcp · PyPI ↗</a> ·{' '}
             <a href={GITHUB_MCP} target="_blank" rel="noopener">republic-mcp · {lang === 'en' ? 'code' : 'codice'} ↗</a> ·{' '}
-            <a href={GITHUB_OPMCP} target="_blank" rel="noopener">openlegis-mcp · {lang === 'en' ? 'code' : 'codice'} ↗</a>
+            <a href={GITHUB_OPMCP} target="_blank" rel="noopener">open-parlamento-mcp · {lang === 'en' ? 'code' : 'codice'} ↗</a>
           </p>
 
           <h2>{lang === 'en' ? 'FAQ' : 'Domande frequenti'}</h2>

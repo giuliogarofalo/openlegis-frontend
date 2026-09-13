@@ -18,7 +18,7 @@ Utile per ricerca giuridica, giornalismo di dati e **OSINT legislativo** (open-s
 - [I dati & le fonti](https://openlegis.it/docs/dati): copertura, formati, licenze, limiti dichiarati
 - [Connettori](https://openlegis.it/docs/connettori): pochi standard aperti (CKAN, SPARQL, Akoma Ntoso)
 - [Progetti collegati](https://openlegis.it/docs/collegati): l'ecosistema aperto su cui poggia
-- [MCP server](https://openlegis.it/docs/mcp-server): i due MCP server open source (republic-mcp · npm, openlegis-mcp · PyPI)
+- [MCP server](https://openlegis.it/docs/mcp-server): i due MCP server open source (republic-mcp · npm, open-parlamento-mcp · PyPI)
 - [API pubblica](https://openlegis.it/docs/api): API REST read-only (norme, relazioni, knowledge graph) con OpenAPI/Swagger
 - [Glossario](https://openlegis.it/docs/glossario): ELI, CELEX, Akoma Ntoso, MCP server, OSINT legislativo
 - [Costituzione](https://openlegis.it/costituzione): struttura e articoli della Costituzione italiana
@@ -29,7 +29,7 @@ Utile per ricerca giuridica, giornalismo di dati e **OSINT legislativo** (open-s
 
 ## English
 - [OpenLegis (EN)](https://openlegis.it/en): AI agent for Italian & EU law over a knowledge graph, with citable sources
-- [Open-source MCP server](https://openlegis.it/en/mcp-server): republic-mcp (npm) + openlegis-mcp (PyPI), MIT — Italian law & Parliament tools for Claude/Cursor
+- [Open-source MCP server](https://openlegis.it/en/mcp-server): republic-mcp (npm) + open-parlamento-mcp (PyPI), MIT — Italian law & Parliament tools for Claude/Cursor
 - [Open data (EN)](https://openlegis.it/en/open-data): legal corpus, amendment relations and knowledge graph
 
 ## Fonti dati (ufficiali e aperte)
@@ -46,5 +46,5 @@ Utile per ricerca giuridica, giornalismo di dati e **OSINT legislativo** (open-s
 - Non è consulenza legale: è uno strumento informativo per capire e navigare la norma.
 
 ## Contatti
-- Email: open-parlament@proton.me
+- Email: hello@openlegis.it
 - Codice: https://github.com/giuliogarofalo/OPEN-PA

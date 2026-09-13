@@ -103,7 +103,7 @@ export default function Tool() {
   const c = lang === 'en' ? enC : itC
   // Pre-filled feedback email opened by the floating CTA.
   const feedbackHref = useMemo(() =>
-    'mailto:open-parlament@proton.me' +
+    'mailto:hello@openlegis.it' +
     '?subject=' + encodeURIComponent(c.feedbackSubject) +
     '&body=' + encodeURIComponent(c.feedbackBody), [c])
   const [params, setParams] = useSearchParams()

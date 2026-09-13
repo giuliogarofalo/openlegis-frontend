@@ -7,7 +7,7 @@ export default {
   lang: 'en', path: '/en/manifesto',
   title: 'Manifesto · OpenLegis',
   desc: 'The OpenLegis manifesto, first person: understanding the law can’t stay a privilege for the few. Why I built a graph of the relations between norms to show where the system doesn’t add up, why I open it in open source, and the limits that come before everything.',
-  keywords: 'open parlamento manifesto, italian law knowledge graph, relations between norms, legal inconsistencies, loopholes, regulatory gaps, accountability, public open data, open infrastructure, MCP, open source, citable sources ELI CELEX Akoma Ntoso',
+  keywords: 'openlegis manifesto, italian law knowledge graph, relations between norms, legal inconsistencies, loopholes, regulatory gaps, accountability, public open data, open infrastructure, MCP, open source, citable sources ELI CELEX Akoma Ntoso',
   kicker: 'manifesto · idea · objectives',
   h1: 'Manifesto',
   standfirst: 'Laws are written in public, but understanding them is a trade for the few. That’s the privilege I want to break.',

@@ -99,13 +99,13 @@ export default {
       title: 'Cos’è un MCP server (e come usarlo per la legge)',
       kicker: 'guida · developer',
       desc: 'Cos’è un MCP server (Model Context Protocol), a cosa serve e come collegare gli MCP server open source di OpenLegis a Claude Desktop o Cursor per interrogare legge e Parlamento.',
-      keywords: 'cos\'è un MCP server, Model Context Protocol, MCP server tutorial, open source MCP, republic-mcp, openlegis-mcp, Claude Desktop MCP',
+      keywords: 'cos\'è un MCP server, Model Context Protocol, MCP server tutorial, open source MCP, republic-mcp, open-parlamento-mcp, Claude Desktop MCP',
       lead: 'Un MCP server espone strumenti (funzioni) che un assistente AI può chiamare per leggere fonti reali invece di inventarle. È il modo standard per dare a un modello accesso a dati e azioni.',
       steps: [
         { name: 'Il Model Context Protocol', text: 'MCP è lo standard aperto che collega un client AI (Claude Desktop, Cursor…) a “server” che offrono tool, risorse e prompt.' },
         { name: 'Cosa fa un MCP server', text: 'Dichiara una lista di funzioni con i loro parametri; quando l’AI le invoca, il server esegue (es. cerca una norma) e restituisce dati strutturati e citabili.' },
-        { name: 'Gli MCP server di OpenLegis', text: 'republic-mcp (npm) per Camera, Senato e OpenPolis; openlegis-mcp (PyPI) per legge, diritto UE, giurisprudenza, statistiche e open data. Entrambi open source (MIT).' },
-        { name: 'Collegarli', text: 'Aggiungi i server alla configurazione del client (mcpServers): npx -y republic-mcp; pip install openlegis-mcp e comando openlegis-mcp.' },
+        { name: 'Gli MCP server di OpenLegis', text: 'republic-mcp (npm) per Camera, Senato e OpenPolis; open-parlamento-mcp (PyPI) per legge, diritto UE, giurisprudenza, statistiche e open data. Entrambi open source (MIT).' },
+        { name: 'Collegarli', text: 'Aggiungi i server alla configurazione del client (mcpServers): npx -y republic-mcp; pip install open-parlamento-mcp e comando open-parlamento-mcp.' },
       ],
       after: [
         [

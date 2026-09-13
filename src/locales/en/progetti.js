@@ -4,7 +4,7 @@
 export default {
   lang: 'en', path: '/en/projects',
   title: 'Open-source projects & libraries behind OpenLegis',
-  desc: 'The open-source projects and libraries behind OpenLegis: RepublicMCP (the origin), republic-mcp on npm, openlegis-mcp on PyPI and the relations graph. Apache-2.0 code, public sources.',
+  desc: 'The open-source projects and libraries behind OpenLegis: RepublicMCP (the origin), republic-mcp on npm, open-parlamento-mcp on PyPI and the relations graph. Apache-2.0 code, public sources.',
   kicker: 'open source · npm · PyPI · GitHub',
   h1: 'Projects & libraries',
   lead: 'OpenLegis is reuse-first and open source. Here are my projects and published libraries — Apache-2.0 code, data from official and citable sources. Everything is installable and inspectable.',
@@ -19,7 +19,7 @@ export default {
     ['OpenLegis', 'openlegis.it', 'The project: a function-calling agent, connectors, knowledge graph and webapp. The layer that makes queryable the sources that, on their own, are not. The monorepo is private — the reusable code lives in the public projects below.', 'site', 'active'],
     ['RepublicMCP', 'GitHub · TypeScript', 'The origin. An MCP server exposing the Chamber and Senate (acts, legislative process, votes, signatories) over SPARQL, with the OCD/OSR ontologies documented and diagrammed.', 'republicMCP', 'origin'],
     ['republic-mcp', 'npm · TypeScript', 'The published RepublicMCP package: «npx -y republic-mcp». Chamber & Senate + Openpolis data (MPs, power index, votes, decrees, organs).', 'republicMCPnpm', 'published'],
-    ['openlegis-mcp', 'GitHub · Python', 'The MCP server for law and data: Constitution and codes, Normattiva amendments, legislative process, EU/Constitutional/Cassation/administrative case law, statistics, Official Gazette, CKAN data, OpenPolis, PNRR (incl. contract awards) — 25 tools. On PyPI: «pip install openlegis-mcp».', 'openParlamentoMcpGithub', 'published'],
+    ['open-parlamento-mcp', 'GitHub · Python', 'The MCP server for law and data: Constitution and codes, Normattiva amendments, legislative process, EU/Constitutional/Cassation/administrative case law, statistics, Official Gazette, CKAN data, OpenPolis, PNRR (incl. contract awards) — 25 tools. On PyPI: «pip install open-parlamento-mcp».', 'openParlamentoMcpGithub', 'published'],
   ],
 
   dataH: 'Open data',
@@ -44,8 +44,8 @@ export default {
   relatedH: 'See also',
   faq: [
     { q: 'Which project did OpenLegis grow out of?', a: 'RepublicMCP: the MCP server that exposes the Chamber and Senate over SPARQL. Mapping the OCD and OSR ontologies sparked the idea of uniting law and data into a single queryable graph.' },
-    { q: 'Are the projects open source?', a: 'Yes. The code is published under the Apache-2.0 license on GitHub; packages are on npm (republic-mcp) and PyPI (openlegis-mcp). Data comes from public, citable sources.' },
-    { q: 'Can I use the libraries without the webapp?', a: 'Yes. The MCP servers are standalone: «npx -y republic-mcp» or «pip install openlegis-mcp», then configure them in your MCP client. They work independently of the website.' },
+    { q: 'Are the projects open source?', a: 'Yes. The code is published under the Apache-2.0 license on GitHub; packages are on npm (republic-mcp) and PyPI (open-parlamento-mcp). Data comes from public, citable sources.' },
+    { q: 'Can I use the libraries without the webapp?', a: 'Yes. The MCP servers are standalone: «npx -y republic-mcp» or «pip install open-parlamento-mcp», then configure them in your MCP client. They work independently of the website.' },
   ],
   disclaimer: 'Informational tool — not legal advice. Apache-2.0 code, public and citable sources (ELI/CELEX).',
 }

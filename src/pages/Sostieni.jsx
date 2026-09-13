@@ -9,8 +9,8 @@ import enC from '../locales/en/sostieni.js'
 
 const GITHUB = 'https://github.com/giuliogarofalo/RepublicMCP' // repo pubblico (l'origine) — il monorepo del progetto è privato
 const NPM = 'https://www.npmjs.com/package/republic-mcp'
-const PYPI = 'https://pypi.org/project/openlegis-mcp/'
-const MAIL = 'open-parlament@proton.me'
+const PYPI = 'https://pypi.org/project/open-parlamento-mcp/'
+const MAIL = 'hello@openlegis.it'
 
 export default function Sostieni() {
   const { i18n } = useTranslation()
@@ -50,7 +50,7 @@ export default function Sostieni() {
           <p>
             <a href={GITHUB} target="_blank" rel="noopener">{t.ctaRepo}</a> ·{' '}
             <a href={NPM} target="_blank" rel="noopener">republic-mcp · npm</a> ·{' '}
-            <a href={PYPI} target="_blank" rel="noopener">openlegis-mcp · PyPI</a> ·{' '}
+            <a href={PYPI} target="_blank" rel="noopener">open-parlamento-mcp · PyPI</a> ·{' '}
             <a href={lang === 'en' ? '/en/api' : '/docs/api'}>{lang === 'en' ? 'public API' : 'API pubblica'}</a>
           </p>
           <p>

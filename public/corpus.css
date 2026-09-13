@@ -1,4 +1,4 @@
-/* Open·Parlamento — stile delle pagine statiche del corpus (norme/articoli).
+/* OpenLegis — stile delle pagine statiche del corpus (norme/articoli).
    Stand-alone (niente dipendenze dal bundle SPA): caricato via <link>. */
 :root {
   --ink: #0b0d11; --ink-2: #11141b; --ink-3: #161a23;

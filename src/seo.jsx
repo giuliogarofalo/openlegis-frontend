@@ -33,7 +33,7 @@ function globalLd(lang = 'it') {
       url: SITE,
       logo: SITE + '/icon-512.png',
       description: DEFAULT_DESC,
-      email: 'open-parlament@proton.me',
+      email: 'hello@openlegis.it',
       founder: { '@type': 'Person', name: 'Giulio Garofalo' },
       knowsAbout: [
         'Costituzione italiana',

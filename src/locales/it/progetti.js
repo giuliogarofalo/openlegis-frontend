@@ -4,7 +4,7 @@
 export default {
   lang: 'it', path: '/progetti',
   title: 'Progetti & librerie open source di OpenLegis',
-  desc: 'I progetti e le librerie open source dietro OpenLegis: RepublicMCP (l’origine), republic-mcp su npm, openlegis-mcp su PyPI e il grafo delle relazioni. Codice Apache-2.0, fonti pubbliche.',
+  desc: 'I progetti e le librerie open source dietro OpenLegis: RepublicMCP (l’origine), republic-mcp su npm, open-parlamento-mcp su PyPI e il grafo delle relazioni. Codice Apache-2.0, fonti pubbliche.',
   kicker: 'open source · npm · PyPI · GitHub',
   h1: 'Progetti & librerie',
   lead: 'OpenLegis è reuse-first e open source. Qui trovi i miei progetti e le librerie pubblicate — codice Apache-2.0, dati da fonti ufficiali e citabili. Tutto è installabile e ispezionabile.',
@@ -20,7 +20,7 @@ export default {
     ['OpenLegis', 'openlegis.it', 'Il progetto: agente con function-calling, connettori, knowledge graph e webapp. Lo strato che rende interrogabili fonti che, da sole, non lo sono. Il monorepo è privato — il codice riusabile è nei progetti pubblici qui sotto.', 'site', 'attivo'],
     ['RepublicMCP', 'GitHub · TypeScript', 'L’origine. Server MCP che espone Camera e Senato (atti, iter, votazioni, firmatari) via SPARQL, con le ontologie OCD/OSR documentate e diagrammate.', 'republicMCP', 'origine'],
     ['republic-mcp', 'npm · TypeScript', 'Il pacchetto pubblicato di RepublicMCP: «npx -y republic-mcp». Camera & Senato + dati Openpolis (parlamentari, indice di forza, votazioni, decreti, organi).', 'republicMCPnpm', 'pubblicato'],
-    ['openlegis-mcp', 'GitHub · Python', 'Il server MCP della legge e dei dati: Costituzione e codici, modifiche Normattiva, iter, giurisprudenza UE/Consulta/Cassazione/TAR-CdS, statistiche, Gazzetta Ufficiale, dati CKAN, OpenPolis, PNRR (anche aggiudicazioni appalti) — 25 tool. Su PyPI: «pip install openlegis-mcp».', 'openParlamentoMcpGithub', 'pubblicato'],
+    ['open-parlamento-mcp', 'GitHub · Python', 'Il server MCP della legge e dei dati: Costituzione e codici, modifiche Normattiva, iter, giurisprudenza UE/Consulta/Cassazione/TAR-CdS, statistiche, Gazzetta Ufficiale, dati CKAN, OpenPolis, PNRR (anche aggiudicazioni appalti) — 25 tool. Su PyPI: «pip install open-parlamento-mcp».', 'openParlamentoMcpGithub', 'pubblicato'],
   ],
 
   dataH: 'Dati aperti',
@@ -45,8 +45,8 @@ export default {
   relatedH: 'Vedi anche',
   faq: [
     { q: 'Qual è il progetto da cui è nato OpenLegis?', a: 'RepublicMCP: il server MCP che espone Camera e Senato via SPARQL. Mappando le ontologie OCD e OSR è nata l’idea di unire legge e dati in un unico grafo interrogabile.' },
-    { q: 'I progetti sono open source?', a: 'Sì. Il codice è pubblicato con licenza Apache-2.0 su GitHub; i pacchetti sono su npm (republic-mcp) e PyPI (openlegis-mcp). I dati provengono da fonti pubbliche e citabili.' },
-    { q: 'Posso usare le librerie senza la webapp?', a: 'Sì. I server MCP sono autonomi: «npx -y republic-mcp» o «pip install openlegis-mcp», poi configurali nel tuo client MCP. Funzionano indipendentemente dal sito.' },
+    { q: 'I progetti sono open source?', a: 'Sì. Il codice è pubblicato con licenza Apache-2.0 su GitHub; i pacchetti sono su npm (republic-mcp) e PyPI (open-parlamento-mcp). I dati provengono da fonti pubbliche e citabili.' },
+    { q: 'Posso usare le librerie senza la webapp?', a: 'Sì. I server MCP sono autonomi: «npx -y republic-mcp» o «pip install open-parlamento-mcp», poi configurali nel tuo client MCP. Funzionano indipendentemente dal sito.' },
   ],
   disclaimer: 'Strumento informativo — non è consulenza legale. Codice Apache-2.0, fonti pubbliche e citabili (ELI/CELEX).',
 }

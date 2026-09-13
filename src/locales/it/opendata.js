@@ -37,7 +37,7 @@ export default {
   relatedH: 'Vedi anche',
   faq: [
     { q: 'Con quale licenza sono i dati?', a: 'Le fonti sono pubbliche e aperte: Normattiva è CC BY 4.0; gli altri portali seguono le rispettive licenze open. Cita sempre la fonte ufficiale.' },
-    { q: 'Come accedo ai dati a livello programmatico?', a: 'Tramite gli MCP server open source (republic-mcp su npm, openlegis-mcp su PyPI) o direttamente dalle fonti (SPARQL Camera/Senato, EUR-Lex, Eurostat, CKAN).' },
+    { q: 'Come accedo ai dati a livello programmatico?', a: 'Tramite gli MCP server open source (republic-mcp su npm, open-parlamento-mcp su PyPI) o direttamente dalle fonti (SPARQL Camera/Senato, EUR-Lex, Eurostat, CKAN).' },
   ],
   disclaimer: 'Strumento informativo — non è consulenza legale.',
 }

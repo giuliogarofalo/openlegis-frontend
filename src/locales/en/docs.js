@@ -236,7 +236,7 @@ export default {
       ['OpenLegis — code', 'The project repository: agent, connectors, stack and deploy. Open source.', 'github'],
       ['republicMCP — repo', 'The origin. The MCP connector that exposes Camera and Senato as agentic tools (SPARQL), with the OCD/OSR ontologies documented. Open source.', 'republicMCP'],
       ['republic-mcp — npm', 'The published package: «npx republic-mcp», usable from Claude Desktop, Cursor and other MCP clients.', 'republicMCPnpm'],
-      ['openlegis-mcp — PyPI', 'The OpenLegis MCP server (cerca_legge, data, Camera/Senato process, Normattiva amendments): «pip install openlegis-mcp».', 'mcpPypi'],
+      ['open-parlamento-mcp — PyPI', 'The OpenLegis MCP server (cerca_legge, data, Camera/Senato process, Normattiva amendments): «pip install open-parlamento-mcp».', 'mcpPypi'],
     ],
     mineCta: 'All projects & libraries →',
     minePath: '/progetti',

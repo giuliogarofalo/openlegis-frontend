@@ -4,7 +4,7 @@ export default {
   lang: 'en', path: '/en/how-it-works',
   title: 'How OpenLegis works: graph, relations and the agent flow',
   desc: 'How OpenLegis works: the objective, the three-layer knowledge graph, the typed relations between statutes and the flow the agent uses to retrieve, evaluate and present sources. Plus the roadmap.',
-  keywords: 'how open parlamento works, legal knowledge graph, relations between statutes, AI law agent, legal RAG, verbatim citations, ELI CELEX, roadmap, legislative process',
+  keywords: 'how openlegis works, legal knowledge graph, relations between statutes, AI law agent, legal RAG, verbatim citations, ELI CELEX, roadmap, legislative process',
   kicker: 'method · objective · roadmap',
   h1: 'How OpenLegis works',
   lead: 'OpenLegis is not a «fixed» legal chatbot: it is an agent that answers by uniting law and public data, always citing the source. Here I explain the objective, how the graph is built, how the agent retrieves and evaluates information, and where the project is heading.',
