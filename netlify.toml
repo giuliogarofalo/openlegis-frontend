@@ -14,7 +14,9 @@
 # Netlify non bufferizzi la risposta (rischio noto dei redirect-proxy su edge CDN).
 
 [build]
-  command = "npm run build"
+  # Chromium per lo step di prerender (scripts/prerender.mjs, via Playwright) — il
+  # Dockerfile lo installava esplicitamente con --with-deps, qui serve lo stesso.
+  command = "npx playwright install --with-deps chromium && npm run build"
   publish = "dist"
 
 # Pagine del corpus: sono dist/norme/.../index.html (directory), ma canonical/sitemap
