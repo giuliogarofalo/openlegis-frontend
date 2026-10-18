@@ -5,3 +5,8 @@ dist/
 .env
 .env.production
 .netlify
+
+# 1Password: i .env.op restano sul disco e non si tracciano (vedi GROWFLOW/SECRETS.md)
+.env.op
+.env.*.op
+*.env.op
